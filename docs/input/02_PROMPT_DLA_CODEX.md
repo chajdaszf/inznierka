@@ -1,0 +1,25 @@
+# POLECENIE DO CODEXA — REALNY SCHEMAT KiCad inteligentnej szafki
+
+Pracuję nad pracą inżynierską „Projekt inteligentnej szafki warsztatowej sterowanej głosowo”. W katalogu roboczym masz pliki `00_PRZECZYTAJ.md`, `01_SPECYFIKACJA_ELEKTRYCZNA.md`, `03_BOM_PROJEKTOWY.csv`, `04_MAPA_PINOW_I_SYGNALOW.csv`, `05_ELEMENTY_ZEWNETRZNE.csv`, `06_PRZED_ZAMOWIENIEM.md`. Przeczytaj je przed pisaniem plików KiCad.
+
+**ZADANIE:** Wygeneruj **rzeczywisty, edytowalny projekt schematu KiCad 9** dla dwuszufladowej szafki (~300x300x300 mm), nie renderunek lub imitację schematu. Nazwij projekt `Szafka_Glosowa_STM32_ESP32` i utwórz prawidłowe pliki `.kicad_pro`, `.kicad_sch` oraz ewentualne schematy potomne. Stosuj KiCad 9 w lokalnym środowisku. Jeżeli środowisko ma inną wersję, poinformuj o tym i dopasuj generację do faktycznie dostępnej wersji; nie fałszuj potwierdzenia.
+
+**Architektura** (szczegóły w MD/CSV):
+1. Główny MCU STM32G030C8T6 LQFP48 (LCSC C529329), SWD 14-pin STDC14 (C5563894), główna logika napędów i bezpieczeństwa. Przypisania GPIO w `04_MAPA_PINOW_I_SYGNALOW.csv`.
+2. ESP32-S3-WROOM-1-N8 (C2913198) WiFi, BLE i I2S z zewnętrznego mikrofonu, natywne USB-C do programowania/debugowania, UART cross TX/RX 3.3V do STM. Przycisk ESP BOOT i RESET, odpowiednie pull-up/RC oraz USB ESD. Brak osobnego programatora ESP.
+3. Dwa DRV8876RGTR **w obudowie RGT/VQFN** (2× C1852100). Sterowanie PWM-mode (PMODE high, IN1/IN2 PWM), IPROPI->ADC, VREF z dzielnika z komentarzem „wartość tylko wstępna”, IMODE Hi-Z (quad 4, latched OC), nSLEEP z niezależnej bramki AND bezpieczeństwa. Kondensatory VCP/CPH/CPL i bulk przy VM zgodnie z TI datasheet.
+4. Zasilacz sieciowy zewnętrzny 230VAC->12VDC; PCB ma tylko wejście 12V. AP63205 12->5V i AP63203 5V_OR->3.3V, izolacja źródeł 5V z buck i USB za pomocą SS14. **USB samodzielnie zasila logikę i pozwala programować STM/ESP, nigdy napędy.** Części/przybliżone wartości w BOM.
+5. Sprzętowy łańcuch trzech styków NC w szeregu: E-STOP + czujnik kontaktowy szuflada1 + szuflada2. Wraz z `STM MOTOR_MCU_ENABLE` wejścia bramki AND -> nSLEEP obu mostków (default OFF). Dodatkowo 4 NC krańcówki i 2 moduły ToF VL53L0X podłączone poprzez złącza JST 5-pin I2C z XSHUT1/XSHUT2. Jeden mikrofon INMP441 na zewnętrznym module JST 6-pin.
+6. Złącza mocy SMD J3–J5 i sygnałowe SMD JST J6–J15, żadnego niepolutowanego pinu. Jednostronny montaż PCBA JLCPCB preferowany.
+
+**WYKONAJ:**
+A. Podziel schemat na czytelne bloki: `Power_12V_5V_3V3`, `STM32_Control_SWD`, `ESP32_USB_Audio`, `Motor_Drivers`, `Safety_Sensors_Connectors` (arkusze hierarchiczne lub strony, jeśli poprawność KiCad pozostaje zachowana). Utwórz pełne symbole, pola `LCSC`, `MPN`, dobierz footprinty na podstawie **zweryfikowanego** datasheet i katalogu JLCPCB. Przenieś wszystkie elementy BOM oraz niezbędne power flags, PWR, ESD i kondensatory. Skonfrontuj referencje z BOM i bezdublowaniem numerów. W nazwach sieci nie mieszaj zasilania silników z USB.
+B. Bardzo ostrożnie sprawdź **fizyczne numery pinów**: STM32G030C8T6 LQFP48, ESP32-S3-WROOM-1-N8, DRV8876**RGT** QFN16, AP63203/AP63205, STDC14, USB-C. Nie zgaduj! Porównaj każdą funkcję z kartą producenta oraz mapą CSV. Jeśli dokumentacja potwierdza inny pinout, popraw pliki robocze, opisz różnicę w `CHANGELOG.md` i nie działaj na błędnej numeracji.
+C. Rozpocznij od schematu, **nie generuj Gerber/CPL** zanim schemat przejdzie elektryczną kontrolę ERC i krytyczne wartości siłowników zostaną zatwierdzone. W przypadku braku narzędzia KiCad wypisz brak i nie twórz fałszywego „gotowego” pliku.
+D. Sprawdź schemat za pomocą `kicad-cli sch erc Szafka_Glosowa_STM32_ESP32.kicad_sch -o ERC_report.txt` i rozwiąż rzeczywiste błędy oraz ostrzeżenia, nie tłum masowo markerów `no_erc` lub `no_connect` bez uzasadnienia. Jeżeli brak `kicad-cli`, napisz precyzyjnie co wymaga uruchomienia u mnie lokalnie.
+E. Wygeneruj aktualny eksport BOM z KiCad w `JLCPCB_BOM_preview.csv` (pola Reference, Quantity, Value, Footprint, LCSC), listę nieobsadzonych/warunkowych pól i `VERIFY_BEFORE_ORDER.md`. Wszystkie komponenty fizycznie montowane muszą mieć kod JLCPCB i możliwość fabrycznego montażu; pasujące przewody dla złącz dokupowane osobno.
+F. Przed montażem PCB uwzględnij wymagania ścieżek prądowych/termicznych mostków, anteny RF i USB ESD oraz poprawne rozmieszczenie regulatorów buck. Ewentualny layout tylko po mojej akceptacji schematu.
+
+**DANE NIEUSTALONE — NIE ZMYŚLAJ:** dokładny model i maksymalny prąd 12V siłowników, zgodność sterowników i limitu VREF, gabaryty złożonego siłownika (<30cm), moc zasilacza, bezpiecznik DC, mechaniczna kompatybilność złączy SMD J3/J4/J5 i gotowych wtyków; kompletne pomiary bezpieczeństwa. Oznacz je jako `TBD/TO VERIFY` w dokumentacji. Nie traktuj prototypowego NC loop/ToF/current sensing jako atestowanego zabezpieczenia BHP.
+
+**ODDAJ** pliki projektu KiCad oraz zwięzły raport: (1) co wygenerowano, (2) które elementy są potwierdzone w JLCPCB, (3) wyniki ERC, (4) lista konkretnych otwartych punktów, (5) jak otworzyć schemat w KiCad. Bez zamawiania PCB, bez pomijania niezweryfikowanych wymagań.

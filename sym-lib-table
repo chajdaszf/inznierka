@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Szafka") (type "KiCad") (uri "${KIPRJMOD}/Szafka.kicad_sym") (options "") (descr "Pinned KiCad symbols plus provisional workbook DRV8876 RGT map"))
+)

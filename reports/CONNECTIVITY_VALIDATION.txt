@@ -1,0 +1,12 @@
+PASS: KiCad 9 exported all 83 physical components.
+PASS: 274 connected physical pins match documented net assignments.
+PASS: 59 intentionally unused physical pins have no assigned circuit net.
+PASS: UART cross, SWD, PWM, ADC, native USB, I2S and ToF connector pin maps.
+PASS: NC chain -> AND -> both nSLEEP; explicit three pulldowns.
+PASS: motor VM distinct from USB, logic and ground nets; correctly oriented OR diodes.
+PASS: independent buck switch nodes; VCP/CP and VREF passives not shorted.
+PASS: exported BOM Quantity total=83; all assembly references carry MPN and workbook LCSC.
+PASS: ERC errors=0, warnings=0, exclusions=0.
+LIMIT: checks are of digital schematic connectivity; no hardware test or manufacturer/catalog verification.
+HOLD: provisional RGT numbered pins from workbook; EP placeholder; missing/conditional footprints.
+HOLD: actuator current, supply/fuse, thermal/RF/USB/layout and prototype safety tests pending.

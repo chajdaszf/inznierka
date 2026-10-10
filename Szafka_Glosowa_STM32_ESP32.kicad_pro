@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "filename": "Szafka_Glosowa_STM32_ESP32.kicad_pro",
+    "version": 1
+  },
+  "schematic": {
+    "meta": {
+      "version": 1
+    }
+  },
+  "erc": {
+    "meta": {
+      "version": 0
+    },
+    "erc_exclusions": []
+  },
+  "text_variables": {}
+}

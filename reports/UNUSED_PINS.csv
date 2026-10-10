@@ -1,0 +1,60 @@
+﻿Reference,Pin,Pin_Name,Reason
+U1,8,PF0,Unused GPIO: deliberately not connected to external circuitry
+U1,9,PF1,Unused GPIO: deliberately not connected to external circuitry
+U1,38,PD0,Unused GPIO: deliberately not connected to external circuitry
+U1,39,PD1,Unused GPIO: deliberately not connected to external circuitry
+U1,40,PD2,Unused GPIO: deliberately not connected to external circuitry
+U1,41,PD3,Unused GPIO: deliberately not connected to external circuitry
+U1,30,PC6,Unused GPIO: deliberately not connected to external circuitry
+U1,31,PC7,Unused GPIO: deliberately not connected to external circuitry
+U1,1,PC13,Unused GPIO: deliberately not connected to external circuitry
+U1,2,PC14,Unused GPIO: deliberately not connected to external circuitry
+U1,3,PC15,Unused GPIO: deliberately not connected to external circuitry
+U1,32,NC/PA10,NC in KiCad STM32G030C8Tx symbol; UART is physical pins 33/34
+U1,29,NC/PA9,NC in KiCad STM32G030C8Tx symbol; UART is physical pins 33/34
+U1,13,PA2,Unused GPIO: deliberately not connected to external circuitry
+U1,14,PA3,Unused GPIO: deliberately not connected to external circuitry
+U1,15,PA4,Unused GPIO: deliberately not connected to external circuitry
+U1,16,PA5,Unused GPIO: deliberately not connected to external circuitry
+U1,37,PA15,Unused GPIO: deliberately not connected to external circuitry
+U1,21,PB2,Unused GPIO: deliberately not connected to external circuitry
+U1,44,PB5,Unused GPIO: deliberately not connected to external circuitry
+J2,1,Pin_1,Reserved or unused STDC14 optional signal; connector pinout pending manufacturer check
+J2,9,Pin_9,Reserved or unused STDC14 optional signal; connector pinout pending manufacturer check
+J2,13,Pin_13,Reserved or unused STDC14 optional signal; connector pinout pending manufacturer check
+J2,2,Pin_2,Reserved or unused STDC14 optional signal; connector pinout pending manufacturer check
+J2,8,Pin_8,Reserved or unused STDC14 optional signal; connector pinout pending manufacturer check
+J2,10,Pin_10,Reserved or unused STDC14 optional signal; connector pinout pending manufacturer check
+J2,14,Pin_14,Reserved or unused STDC14 optional signal; connector pinout pending manufacturer check
+U2,39,IO1,Unused GPIO: deliberately not connected to external circuitry
+U2,38,IO2,Unused GPIO: deliberately not connected to external circuitry
+U2,15,IO3,Unused GPIO: deliberately not connected to external circuitry
+U2,7,IO7,Unused GPIO: deliberately not connected to external circuitry
+U2,12,IO8,Unused GPIO: deliberately not connected to external circuitry
+U2,17,IO9,Unused GPIO: deliberately not connected to external circuitry
+U2,18,IO10,Unused GPIO: deliberately not connected to external circuitry
+U2,19,IO11,Unused GPIO: deliberately not connected to external circuitry
+U2,20,IO12,Unused GPIO: deliberately not connected to external circuitry
+U2,21,IO13,Unused GPIO: deliberately not connected to external circuitry
+U2,22,IO14,Unused GPIO: deliberately not connected to external circuitry
+U2,8,IO15,Unused GPIO: deliberately not connected to external circuitry
+U2,9,IO16,Unused GPIO: deliberately not connected to external circuitry
+U2,37,TXD0,Unused GPIO: deliberately not connected to external circuitry
+U2,36,RXD0,Unused GPIO: deliberately not connected to external circuitry
+U2,23,IO21,Unused GPIO: deliberately not connected to external circuitry
+U2,28,IO35,Unused GPIO: deliberately not connected to external circuitry
+U2,29,IO36,Unused GPIO: deliberately not connected to external circuitry
+U2,30,IO37,Unused GPIO: deliberately not connected to external circuitry
+U2,31,IO38,Unused GPIO: deliberately not connected to external circuitry
+U2,32,IO39,Unused GPIO: deliberately not connected to external circuitry
+U2,33,IO40,Unused GPIO: deliberately not connected to external circuitry
+U2,34,IO41,Unused GPIO: deliberately not connected to external circuitry
+U2,35,IO42,Unused GPIO: deliberately not connected to external circuitry
+U2,26,IO45,Unused GPIO: deliberately not connected to external circuitry
+U2,16,IO46,Unused GPIO: deliberately not connected to external circuitry
+U2,24,IO47,Unused GPIO: deliberately not connected to external circuitry
+U2,25,IO48,Unused GPIO: deliberately not connected to external circuitry
+J1,A8,SBU1,USB2-only design: SBU1/SBU2 unused
+J1,B8,SBU2,USB2-only design: SBU1/SBU2 unused
+U3,5,IMODE,IMODE deliberately floating per workbook; mode MUST be verified in RGT datasheet
+U4,5,IMODE,IMODE deliberately floating per workbook; mode MUST be verified in RGT datasheet

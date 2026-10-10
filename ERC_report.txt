@@ -1,0 +1,15 @@
+ERC report (2026-10-10T18:41:08+0000, Encoding UTF8)
+
+***** Sheet /
+
+***** Sheet /Power_12V_5V_3V3/
+
+***** Sheet /STM32_Control_SWD/
+
+***** Sheet /ESP32_USB_Audio/
+
+***** Sheet /Motor_Drivers/
+
+***** Sheet /Safety_Sensors_Connectors/
+
+ ** ERC messages: 0  Errors 0  Warnings 0

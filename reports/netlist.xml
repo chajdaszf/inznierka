@@ -1,0 +1,3373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/workspace/inznierka/Szafka_Glosowa_STM32_ESP32.kicad_sch</source>
+    <date>2026-10-10T18:41:09+0000</date>
+    <tool>Eeschema 9.0.2+dfsg-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Szafka_Glosowa_STM32_ESP32</title>
+        <company/>
+        <rev>DRAFT 0.1</rev>
+        <date/>
+        <source>Szafka_Glosowa_STM32_ESP32.kicad_sch</source>
+        <comment number="1" value="NOT FOR ORDER - manufacturer/catalog/actuator verification pending"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Power_12V_5V_3V3/" tstamps="/bf6eef54-6004-552f-ac2f-016bd2a8d224/">
+      <title_block>
+        <title>Szafka_Glosowa_STM32_ESP32 / Power_12V_5V_3V3</title>
+        <company/>
+        <rev>DRAFT 0.1</rev>
+        <date/>
+        <source>Power_12V_5V_3V3.kicad_sch</source>
+        <comment number="1" value="WORKBOOK INPUT; datasheet/catalog verification pending; NOT FOR ORDER"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/STM32_Control_SWD/" tstamps="/5b03c614-bfaa-5571-ba4a-5c60e4da591b/">
+      <title_block>
+        <title>Szafka_Glosowa_STM32_ESP32 / STM32_Control_SWD</title>
+        <company/>
+        <rev>DRAFT 0.1</rev>
+        <date/>
+        <source>STM32_Control_SWD.kicad_sch</source>
+        <comment number="1" value="WORKBOOK INPUT; datasheet/catalog verification pending; NOT FOR ORDER"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/ESP32_USB_Audio/" tstamps="/28291874-631c-52ae-acd6-89d71ff53e3a/">
+      <title_block>
+        <title>Szafka_Glosowa_STM32_ESP32 / ESP32_USB_Audio</title>
+        <company/>
+        <rev>DRAFT 0.1</rev>
+        <date/>
+        <source>ESP32_USB_Audio.kicad_sch</source>
+        <comment number="1" value="WORKBOOK INPUT; datasheet/catalog verification pending; NOT FOR ORDER"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Motor_Drivers/" tstamps="/180b142b-81ed-5d91-9aca-b179a6c8423f/">
+      <title_block>
+        <title>Szafka_Glosowa_STM32_ESP32 / Motor_Drivers</title>
+        <company/>
+        <rev>DRAFT 0.1</rev>
+        <date/>
+        <source>Motor_Drivers.kicad_sch</source>
+        <comment number="1" value="WORKBOOK INPUT; datasheet/catalog verification pending; NOT FOR ORDER"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Safety_Sensors_Connectors/" tstamps="/9d2a48e8-d55e-5dd3-b583-c5dc84abc364/">
+      <title_block>
+        <title>Szafka_Glosowa_STM32_ESP32 / Safety_Sensors_Connectors</title>
+        <company/>
+        <rev>DRAFT 0.1</rev>
+        <date/>
+        <source>Safety_Sensors_Connectors.kicad_sch</source>
+        <comment number="1" value="WORKBOOK INPUT; datasheet/catalog verification pending; NOT FOR ORDER"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100uF 25V</value>
+      <fields>
+        <field name="LCSC">C970685</field>
+        <field name="MPN">RVT1E101M0607</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">UNASSIGNED_PENDING_DATASHEET</field>
+        <field name="Design_Note">Zadbaj o biegunowosc i dostateczny prąd ripple</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="LCSC" value="C970685"/>
+      <property name="MPN" value="RVT1E101M0607"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="UNASSIGNED_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Zadbaj o biegunowosc i dostateczny prąd ripple"/>
+      <property name="Sheetname" value="Power_12V_5V_3V3"/>
+      <property name="Sheetfile" value="Power_12V_5V_3V3.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/Power_12V_5V_3V3/" tstamps="/bf6eef54-6004-552f-ac2f-016bd2a8d224/"/>
+      <tstamps>22667da7-d04a-5033-ab00-222453f7fb29</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10uF 25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C15850</field>
+        <field name="MPN">CL21A106KAYNNNE</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Pojemność efektywna maleje przez DC bias; walidacja datasheet</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C15850"/>
+      <property name="MPN" value="CL21A106KAYNNNE"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Pojemność efektywna maleje przez DC bias; walidacja datasheet"/>
+      <property name="Sheetname" value="Power_12V_5V_3V3"/>
+      <property name="Sheetfile" value="Power_12V_5V_3V3.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Power_12V_5V_3V3/" tstamps="/bf6eef54-6004-552f-ac2f-016bd2a8d224/"/>
+      <tstamps>08b60011-5d8a-50d5-9700-64fb8db4f2ac</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nF 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Zapewnij skuteczne 100nF na kazdym wymaganym piny zasilania; sprawdź liczby wg datasheet</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Zapewnij skuteczne 100nF na kazdym wymaganym piny zasilania; sprawdź liczby wg datasheet"/>
+      <property name="Sheetname" value="Power_12V_5V_3V3"/>
+      <property name="Sheetfile" value="Power_12V_5V_3V3.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Power_12V_5V_3V3/" tstamps="/bf6eef54-6004-552f-ac2f-016bd2a8d224/"/>
+      <tstamps>23968a68-4abc-5b8c-a784-1c6aa5bc0d6e</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>22uF 25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C466797</field>
+        <field name="MPN">C0805X5R226M250NT</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">ESP dodatkowy bulk obok zasilania</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C466797"/>
+      <property name="MPN" value="C0805X5R226M250NT"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="ESP dodatkowy bulk obok zasilania"/>
+      <property name="Sheetname" value="Power_12V_5V_3V3"/>
+      <property name="Sheetfile" value="Power_12V_5V_3V3.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Power_12V_5V_3V3/" tstamps="/bf6eef54-6004-552f-ac2f-016bd2a8d224/"/>
+      <tstamps>626af7af-3fb6-5b28-a955-fb60ce95d7eb</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>22uF 25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C466797</field>
+        <field name="MPN">C0805X5R226M250NT</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">ESP dodatkowy bulk obok zasilania</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C466797"/>
+      <property name="MPN" value="C0805X5R226M250NT"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="ESP dodatkowy bulk obok zasilania"/>
+      <property name="Sheetname" value="Power_12V_5V_3V3"/>
+      <property name="Sheetfile" value="Power_12V_5V_3V3.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Power_12V_5V_3V3/" tstamps="/bf6eef54-6004-552f-ac2f-016bd2a8d224/"/>
+      <tstamps>adf11466-3710-5019-b095-49660c82616e</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10uF 25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C15850</field>
+        <field name="MPN">CL21A106KAYNNNE</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Pojemność efektywna maleje przez DC bias; walidacja datasheet</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C15850"/>
+      <property name="MPN" value="CL21A106KAYNNNE"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Pojemność efektywna maleje przez DC bias; walidacja datasheet"/>
+      <property name="Sheetname" value="Power_12V_5V_3V3"/>
+      <property name="Sheetfile" value="Power_12V_5V_3V3.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Power_12V_5V_3V3/" tstamps="/bf6eef54-6004-552f-ac2f-016bd2a8d224/"/>
+      <tstamps>a0e5092d-9a8e-5681-a686-07a55a77a9a7</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100nF 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Zapewnij skuteczne 100nF na kazdym wymaganym piny zasilania; sprawdź liczby wg datasheet</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Zapewnij skuteczne 100nF na kazdym wymaganym piny zasilania; sprawdź liczby wg datasheet"/>
+      <property name="Sheetname" value="Power_12V_5V_3V3"/>
+      <property name="Sheetfile" value="Power_12V_5V_3V3.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Power_12V_5V_3V3/" tstamps="/bf6eef54-6004-552f-ac2f-016bd2a8d224/"/>
+      <tstamps>5639474c-a86b-59b0-886d-4cb15ac086e1</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>22uF 25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C466797</field>
+        <field name="MPN">C0805X5R226M250NT</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">ESP dodatkowy bulk obok zasilania</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C466797"/>
+      <property name="MPN" value="C0805X5R226M250NT"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="ESP dodatkowy bulk obok zasilania"/>
+      <property name="Sheetname" value="Power_12V_5V_3V3"/>
+      <property name="Sheetfile" value="Power_12V_5V_3V3.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Power_12V_5V_3V3/" tstamps="/bf6eef54-6004-552f-ac2f-016bd2a8d224/"/>
+      <tstamps>bfef48bc-e957-5a14-95b0-9ae223c2be33</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>22uF 25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C466797</field>
+        <field name="MPN">C0805X5R226M250NT</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">ESP dodatkowy bulk obok zasilania</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C466797"/>
+      <property name="MPN" value="C0805X5R226M250NT"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="ESP dodatkowy bulk obok zasilania"/>
+      <property name="Sheetname" value="Power_12V_5V_3V3"/>
+      <property name="Sheetfile" value="Power_12V_5V_3V3.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Power_12V_5V_3V3/" tstamps="/bf6eef54-6004-552f-ac2f-016bd2a8d224/"/>
+      <tstamps>1d5a37e6-8abb-5dd6-b6e4-feb9143b8b6d</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>SS54</value>
+      <footprint>Diode_SMD:D_SMB</footprint>
+      <fields>
+        <field name="LCSC">C5200096</field>
+        <field name="MPN">SS54</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Wymaga bilansu strat, temperatury i analizy rzeczywistego prądu silników</field>
+        <field name="Footprint">Diode_SMD:D_SMB</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="D_Schottky" description="Schottky diode"/>
+      <property name="LCSC" value="C5200096"/>
+      <property name="MPN" value="SS54"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Wymaga bilansu strat, temperatury i analizy rzeczywistego prądu silników"/>
+      <property name="Sheetname" value="Power_12V_5V_3V3"/>
+      <property name="Sheetfile" value="Power_12V_5V_3V3.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/Power_12V_5V_3V3/" tstamps="/bf6eef54-6004-552f-ac2f-016bd2a8d224/"/>
+      <tstamps>a7554ea5-be4d-5421-b2e9-fa0a779e8199</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>SS14</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="LCSC">C2480</field>
+        <field name="MPN">SS14</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Anody do 5V_BUCK i USB_5V; katody do 5V_OR; NIE zasilaj silników z USB</field>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="D_Schottky" description="Schottky diode"/>
+      <property name="LCSC" value="C2480"/>
+      <property name="MPN" value="SS14"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Anody do 5V_BUCK i USB_5V; katody do 5V_OR; NIE zasilaj silników z USB"/>
+      <property name="Sheetname" value="Power_12V_5V_3V3"/>
+      <property name="Sheetfile" value="Power_12V_5V_3V3.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/Power_12V_5V_3V3/" tstamps="/bf6eef54-6004-552f-ac2f-016bd2a8d224/"/>
+      <tstamps>574adbe8-e37b-5731-9b1d-04771f60ebbc</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>SS14</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="LCSC">C2480</field>
+        <field name="MPN">SS14</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Anody do 5V_BUCK i USB_5V; katody do 5V_OR; NIE zasilaj silników z USB</field>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="D_Schottky" description="Schottky diode"/>
+      <property name="LCSC" value="C2480"/>
+      <property name="MPN" value="SS14"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Anody do 5V_BUCK i USB_5V; katody do 5V_OR; NIE zasilaj silników z USB"/>
+      <property name="Sheetname" value="Power_12V_5V_3V3"/>
+      <property name="Sheetfile" value="Power_12V_5V_3V3.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/Power_12V_5V_3V3/" tstamps="/bf6eef54-6004-552f-ac2f-016bd2a8d224/"/>
+      <tstamps>b0824e5b-bb3c-560d-a62b-b27251755fae</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>SMBJ15A</value>
+      <footprint>Diode_SMD:D_SMB</footprint>
+      <fields>
+        <field name="LCSC">C83846</field>
+        <field name="MPN">SMBJ15A</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Po stronie 12V, dobór energii/kooperacji z bezpiecznikiem po potwierdzeniu zasilacza</field>
+        <field name="Footprint">Diode_SMD:D_SMB</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <property name="LCSC" value="C83846"/>
+      <property name="MPN" value="SMBJ15A"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Po stronie 12V, dobór energii/kooperacji z bezpiecznikiem po potwierdzeniu zasilacza"/>
+      <property name="Sheetname" value="Power_12V_5V_3V3"/>
+      <property name="Sheetfile" value="Power_12V_5V_3V3.kicad_sch"/>
+      <property name="ki_keywords" value="diode TVS thyrector"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/Power_12V_5V_3V3/" tstamps="/bf6eef54-6004-552f-ac2f-016bd2a8d224/"/>
+      <tstamps>513069bd-7781-58dc-86cc-a7226eaddea1</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>KF2024R-2.54-2P</value>
+      <fields>
+        <field name="LCSC">C42371592</field>
+        <field name="MPN">KF2024R-2.54-2P</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">UNASSIGNED_PENDING_DATASHEET</field>
+        <field name="Design_Note">Gniazda do 12V oraz 2 silnikow, koniecznie zweryfikować rodzaj wtyku i rzeczywisty limit prądowy</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C42371592"/>
+      <property name="MPN" value="KF2024R-2.54-2P"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="UNASSIGNED_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Gniazda do 12V oraz 2 silnikow, koniecznie zweryfikować rodzaj wtyku i rzeczywisty limit prądowy"/>
+      <property name="Sheetname" value="Power_12V_5V_3V3"/>
+      <property name="Sheetfile" value="Power_12V_5V_3V3.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Power_12V_5V_3V3/" tstamps="/bf6eef54-6004-552f-ac2f-016bd2a8d224/"/>
+      <tstamps>28082edb-a75f-5310-86bd-3920c40710ea</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>4.7uH</value>
+      <fields>
+        <field name="LCSC">C133193</field>
+        <field name="MPN">SMMS04204R7M</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">UNASSIGNED_PENDING_DATASHEET</field>
+        <field name="Design_Note">Min. 2.5A rated, Isat okolo 3A; sprawdz straty i ripple</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="L" description="Inductor"/>
+      <property name="LCSC" value="C133193"/>
+      <property name="MPN" value="SMMS04204R7M"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="UNASSIGNED_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Min. 2.5A rated, Isat okolo 3A; sprawdz straty i ripple"/>
+      <property name="Sheetname" value="Power_12V_5V_3V3"/>
+      <property name="Sheetfile" value="Power_12V_5V_3V3.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/Power_12V_5V_3V3/" tstamps="/bf6eef54-6004-552f-ac2f-016bd2a8d224/"/>
+      <tstamps>abe5e29d-adc5-5f90-9ddd-471ddf0f144e</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>3.9uH</value>
+      <footprint>Inductor_SMD:L_Bourns-SRN6028</footprint>
+      <fields>
+        <field name="LCSC">C2046441</field>
+        <field name="MPN">SRN6028-3R9M</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Dobor pod realne obciazenie ESP (szczyty WiFi)</field>
+        <field name="Footprint">Inductor_SMD:L_Bourns-SRN6028</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="L" description="Inductor"/>
+      <property name="LCSC" value="C2046441"/>
+      <property name="MPN" value="SRN6028-3R9M"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Dobor pod realne obciazenie ESP (szczyty WiFi)"/>
+      <property name="Sheetname" value="Power_12V_5V_3V3"/>
+      <property name="Sheetfile" value="Power_12V_5V_3V3.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/Power_12V_5V_3V3/" tstamps="/bf6eef54-6004-552f-ac2f-016bd2a8d224/"/>
+      <tstamps>a2f199e1-b5c4-585b-890e-e6380bc6c2bd</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>AP63205WU-7</value>
+      <footprint>Package_TO_SOT_SMD:TSOT-23-6</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2071056</field>
+        <field name="MPN">AP63205WU-7</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">4.7uH, CIN 10uF, COUT 2x22uF, BST 100nF. FB wg datasheet</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TSOT-23-6</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="AP63205WU" description="2A, 1.1MHz Buck DC/DC Converter, fixed 5.0V output voltage, TSOT-23-6"/>
+      <property name="LCSC" value="C2071056"/>
+      <property name="MPN" value="AP63205WU-7"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="4.7uH, CIN 10uF, COUT 2x22uF, BST 100nF. FB wg datasheet"/>
+      <property name="Sheetname" value="Power_12V_5V_3V3"/>
+      <property name="Sheetfile" value="Power_12V_5V_3V3.kicad_sch"/>
+      <property name="ki_keywords" value="2A Buck DC/DC"/>
+      <property name="ki_fp_filters" value="TSOT?23*"/>
+      <sheetpath names="/Power_12V_5V_3V3/" tstamps="/bf6eef54-6004-552f-ac2f-016bd2a8d224/"/>
+      <tstamps>8c1bd50d-21ee-5693-89a9-f63f82971f1f</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>AP63203WU-7</value>
+      <footprint>Package_TO_SOT_SMD:TSOT-23-6</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C780769</field>
+        <field name="MPN">AP63203WU-7</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">3.9uH, CIN 10uF, COUT 2x22uF, BST 100nF. FB wg datasheet</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TSOT-23-6</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="AP63203WU" description="2A, 1.1MHz Buck DC/DC Converter, fixed 3.3V output voltage, TSOT-23-6"/>
+      <property name="LCSC" value="C780769"/>
+      <property name="MPN" value="AP63203WU-7"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="3.9uH, CIN 10uF, COUT 2x22uF, BST 100nF. FB wg datasheet"/>
+      <property name="Sheetname" value="Power_12V_5V_3V3"/>
+      <property name="Sheetfile" value="Power_12V_5V_3V3.kicad_sch"/>
+      <property name="ki_keywords" value="2A Buck DC/DC"/>
+      <property name="ki_fp_filters" value="TSOT?23*"/>
+      <sheetpath names="/Power_12V_5V_3V3/" tstamps="/bf6eef54-6004-552f-ac2f-016bd2a8d224/"/>
+      <tstamps>139fdf4e-5b65-5ae7-9c80-ab0f49dd9269</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100nF 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Zapewnij skuteczne 100nF na kazdym wymaganym piny zasilania; sprawdź liczby wg datasheet</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Zapewnij skuteczne 100nF na kazdym wymaganym piny zasilania; sprawdź liczby wg datasheet"/>
+      <property name="Sheetname" value="STM32_Control_SWD"/>
+      <property name="Sheetfile" value="STM32_Control_SWD.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/STM32_Control_SWD/" tstamps="/5b03c614-bfaa-5571-ba4a-5c60e4da591b/"/>
+      <tstamps>f983e9ad-b5fc-52bb-8581-a69ea09ef668</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>100nF 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Zapewnij skuteczne 100nF na kazdym wymaganym piny zasilania; sprawdź liczby wg datasheet</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Zapewnij skuteczne 100nF na kazdym wymaganym piny zasilania; sprawdź liczby wg datasheet"/>
+      <property name="Sheetname" value="STM32_Control_SWD"/>
+      <property name="Sheetfile" value="STM32_Control_SWD.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/STM32_Control_SWD/" tstamps="/5b03c614-bfaa-5571-ba4a-5c60e4da591b/"/>
+      <tstamps>0da3f79a-e0e4-537a-87fc-4a89379aa5b7</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100nF 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Zapewnij skuteczne 100nF na kazdym wymaganym piny zasilania; sprawdź liczby wg datasheet</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Zapewnij skuteczne 100nF na kazdym wymaganym piny zasilania; sprawdź liczby wg datasheet"/>
+      <property name="Sheetname" value="STM32_Control_SWD"/>
+      <property name="Sheetfile" value="STM32_Control_SWD.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/STM32_Control_SWD/" tstamps="/5b03c614-bfaa-5571-ba4a-5c60e4da591b/"/>
+      <tstamps>bcbbbc51-54d5-5b2f-bfdc-25e4e549892e</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>100nF 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Zapewnij skuteczne 100nF na kazdym wymaganym piny zasilania; sprawdź liczby wg datasheet</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Zapewnij skuteczne 100nF na kazdym wymaganym piny zasilania; sprawdź liczby wg datasheet"/>
+      <property name="Sheetname" value="STM32_Control_SWD"/>
+      <property name="Sheetfile" value="STM32_Control_SWD.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/STM32_Control_SWD/" tstamps="/5b03c614-bfaa-5571-ba4a-5c60e4da591b/"/>
+      <tstamps>ed38bc44-9686-5847-9832-cc6b1ae306bc</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>FTSH-107-01-L-DV-K-A</value>
+      <fields>
+        <field name="LCSC">C5563894</field>
+        <field name="MPN">FTSH-107-01-L-DV-K-A</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">UNASSIGNED_PENDING_DATASHEET</field>
+        <field name="Design_Note">STLINK V3MINIE: 3 VTref, 4 SWDIO, 5/7/11 GND, 6 SWCLK,12 NRST; 1/2/9 RESERVED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="Conn_02x07_Odd_Even" description="Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C5563894"/>
+      <property name="MPN" value="FTSH-107-01-L-DV-K-A"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="UNASSIGNED_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="STLINK V3MINIE: 3 VTref, 4 SWDIO, 5/7/11 GND, 6 SWCLK,12 NRST; 1/2/9 RESERVED"/>
+      <property name="Sheetname" value="STM32_Control_SWD"/>
+      <property name="Sheetfile" value="STM32_Control_SWD.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
+      <sheetpath names="/STM32_Control_SWD/" tstamps="/5b03c614-bfaa-5571-ba4a-5c60e4da591b/"/>
+      <tstamps>e6258574-29e5-5770-9797-0e9505bd6cb4</tstamps>
+    </comp>
+    <comp ref="LED1">
+      <value>RED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C9900204780</field>
+        <field name="MPN">0603-RED</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">LED1 3V3-&gt;1k-&gt;LED-&gt;GND, LED2 PB15-&gt;1k-&gt;LED-&gt;GND</field>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C9900204780"/>
+      <property name="MPN" value="0603-RED"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="LED1 3V3-&gt;1k-&gt;LED-&gt;GND, LED2 PB15-&gt;1k-&gt;LED-&gt;GND"/>
+      <property name="Sheetname" value="STM32_Control_SWD"/>
+      <property name="Sheetfile" value="STM32_Control_SWD.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/STM32_Control_SWD/" tstamps="/5b03c614-bfaa-5571-ba4a-5c60e4da591b/"/>
+      <tstamps>5257a824-5835-5234-9d01-692a7b0f88b8</tstamps>
+    </comp>
+    <comp ref="LED2">
+      <value>RED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C9900204780</field>
+        <field name="MPN">0603-RED</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">LED1 3V3-&gt;1k-&gt;LED-&gt;GND, LED2 PB15-&gt;1k-&gt;LED-&gt;GND</field>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C9900204780"/>
+      <property name="MPN" value="0603-RED"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="LED1 3V3-&gt;1k-&gt;LED-&gt;GND, LED2 PB15-&gt;1k-&gt;LED-&gt;GND"/>
+      <property name="Sheetname" value="STM32_Control_SWD"/>
+      <property name="Sheetfile" value="STM32_Control_SWD.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/STM32_Control_SWD/" tstamps="/5b03c614-bfaa-5571-ba4a-5c60e4da591b/"/>
+      <tstamps>b3be9035-b9f8-524b-9546-c11adb3a1300</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C98220</field>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Uważać: R14/R15 VREF dzielnik DÓŁ -&gt; GND; reszta wg schematu</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="R" description="Resistor"/>
+      <property name="LCSC" value="C98220"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Uważać: R14/R15 VREF dzielnik DÓŁ -&gt; GND; reszta wg schematu"/>
+      <property name="Sheetname" value="STM32_Control_SWD"/>
+      <property name="Sheetfile" value="STM32_Control_SWD.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/STM32_Control_SWD/" tstamps="/5b03c614-bfaa-5571-ba4a-5c60e4da591b/"/>
+      <tstamps>0ec9a169-bec8-578d-8b67-92c6041d9309</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C22548</field>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="R" description="Resistor"/>
+      <property name="LCSC" value="C22548"/>
+      <property name="MPN" value="RC0603FR-071KL"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value=""/>
+      <property name="Sheetname" value="STM32_Control_SWD"/>
+      <property name="Sheetfile" value="STM32_Control_SWD.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/STM32_Control_SWD/" tstamps="/5b03c614-bfaa-5571-ba4a-5c60e4da591b/"/>
+      <tstamps>2cfc5816-8c29-5771-b3b8-5b2502b53de2</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C22548</field>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="R" description="Resistor"/>
+      <property name="LCSC" value="C22548"/>
+      <property name="MPN" value="RC0603FR-071KL"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value=""/>
+      <property name="Sheetname" value="STM32_Control_SWD"/>
+      <property name="Sheetfile" value="STM32_Control_SWD.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/STM32_Control_SWD/" tstamps="/5b03c614-bfaa-5571-ba4a-5c60e4da591b/"/>
+      <tstamps>f055641e-9bf7-5b1e-8f69-3adf16aa684d</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>STM32G030C8T6</value>
+      <footprint>Package_QFP:LQFP-48_7x7mm_P0.5mm</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/stm32g030c8.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C529329</field>
+        <field name="MPN">STM32G030C8T6</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">SWD PA13/PA14; UART PA9/PA10; VBAT/VREF+ z 3V3; HSI bez kwarcu</field>
+        <field name="Footprint">Package_QFP:LQFP-48_7x7mm_P0.5mm</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/stm32g030c8.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="STM32G030C8Tx" description="STMicroelectronics Arm Cortex-M0+ MCU, 64KB flash, 8KB RAM, 64 MHz, 2.0-3.6V, 43 GPIO, LQFP48"/>
+      <property name="LCSC" value="C529329"/>
+      <property name="MPN" value="STM32G030C8T6"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="SWD PA13/PA14; UART PA9/PA10; VBAT/VREF+ z 3V3; HSI bez kwarcu"/>
+      <property name="Sheetname" value="STM32_Control_SWD"/>
+      <property name="Sheetfile" value="STM32_Control_SWD.kicad_sch"/>
+      <property name="ki_keywords" value="Arm Cortex-M0+ STM32G0 STM32G0x0 Value line"/>
+      <property name="ki_fp_filters" value="LQFP*7x7mm*P0.5mm*"/>
+      <sheetpath names="/STM32_Control_SWD/" tstamps="/5b03c614-bfaa-5571-ba4a-5c60e4da591b/"/>
+      <tstamps>ea17b0b4-e24c-5048-8ed8-ef9ec2b3a1c4</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>22uF 25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C466797</field>
+        <field name="MPN">C0805X5R226M250NT</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">ESP dodatkowy bulk obok zasilania</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C466797"/>
+      <property name="MPN" value="C0805X5R226M250NT"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="ESP dodatkowy bulk obok zasilania"/>
+      <property name="Sheetname" value="ESP32_USB_Audio"/>
+      <property name="Sheetfile" value="ESP32_USB_Audio.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/ESP32_USB_Audio/" tstamps="/28291874-631c-52ae-acd6-89d71ff53e3a/"/>
+      <tstamps>8e910e24-45ee-5278-9a41-30cf2a6d3c81</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100nF 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Zapewnij skuteczne 100nF na kazdym wymaganym piny zasilania; sprawdź liczby wg datasheet</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Zapewnij skuteczne 100nF na kazdym wymaganym piny zasilania; sprawdź liczby wg datasheet"/>
+      <property name="Sheetname" value="ESP32_USB_Audio"/>
+      <property name="Sheetfile" value="ESP32_USB_Audio.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/ESP32_USB_Audio/" tstamps="/28291874-631c-52ae-acd6-89d71ff53e3a/"/>
+      <tstamps>06bd8b70-5cc8-54c0-8707-3e1ccc6f3df8</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>1uF 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C15849</field>
+        <field name="MPN">CL10A105KB8NNNC</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">10k na EN; kondensator do GND</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C15849"/>
+      <property name="MPN" value="CL10A105KB8NNNC"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="10k na EN; kondensator do GND"/>
+      <property name="Sheetname" value="ESP32_USB_Audio"/>
+      <property name="Sheetfile" value="ESP32_USB_Audio.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/ESP32_USB_Audio/" tstamps="/28291874-631c-52ae-acd6-89d71ff53e3a/"/>
+      <tstamps>f4e2f532-84cd-5a40-9196-382a09729abb</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>TYPE-C-31-M-12</value>
+      <footprint>Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <fields>
+        <field name="LCSC">C165948</field>
+        <field name="MPN">TYPE-C-31-M-12</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">CC1+CC2 kazdy 5.1k do GND; D+ GPIO20, D- GPIO19, z ESD; oslona do GND</field>
+        <field name="Footprint">Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12</field>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="USB_C_Receptacle_USB2.0_16P" description="USB 2.0-only 16P Type-C Receptacle connector"/>
+      <property name="LCSC" value="C165948"/>
+      <property name="MPN" value="TYPE-C-31-M-12"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="CC1+CC2 kazdy 5.1k do GND; D+ GPIO20, D- GPIO19, z ESD; oslona do GND"/>
+      <property name="Sheetname" value="ESP32_USB_Audio"/>
+      <property name="Sheetfile" value="ESP32_USB_Audio.kicad_sch"/>
+      <property name="ki_keywords" value="usb universal serial bus type-C USB2.0"/>
+      <property name="ki_fp_filters" value="USB*C*Receptacle*"/>
+      <sheetpath names="/ESP32_USB_Audio/" tstamps="/28291874-631c-52ae-acd6-89d71ff53e3a/"/>
+      <tstamps>b5120d8c-7f77-58e7-a4a3-07925ea03091</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>S6B-PH-SM4-TB(LF)(SN)</value>
+      <footprint>Connector_JST:JST_PH_S6B-PH-SM4-TB_1x06-1MP_P2.00mm_Horizontal</footprint>
+      <fields>
+        <field name="LCSC">C265405</field>
+        <field name="MPN">S6B-PH-SM4-TB(LF)(SN)</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Weryfikacja pinoutu modułu mikrofonowego; 6-pin I2S INMP441 z zewnętrznym L/R lub L/R do GND na złączu</field>
+        <field name="Footprint">Connector_JST:JST_PH_S6B-PH-SM4-TB_1x06-1MP_P2.00mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C265405"/>
+      <property name="MPN" value="S6B-PH-SM4-TB(LF)(SN)"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Weryfikacja pinoutu modułu mikrofonowego; 6-pin I2S INMP441 z zewnętrznym L/R lub L/R do GND na złączu"/>
+      <property name="Sheetname" value="ESP32_USB_Audio"/>
+      <property name="Sheetfile" value="ESP32_USB_Audio.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/ESP32_USB_Audio/" tstamps="/28291874-631c-52ae-acd6-89d71ff53e3a/"/>
+      <tstamps>1d91b299-0193-59c8-98b5-94c96f5c5d30</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C105580</field>
+        <field name="MPN">RC0603FR-075K1L</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="R" description="Resistor"/>
+      <property name="LCSC" value="C105580"/>
+      <property name="MPN" value="RC0603FR-075K1L"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value=""/>
+      <property name="Sheetname" value="ESP32_USB_Audio"/>
+      <property name="Sheetfile" value="ESP32_USB_Audio.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/ESP32_USB_Audio/" tstamps="/28291874-631c-52ae-acd6-89d71ff53e3a/"/>
+      <tstamps>0b22710c-3550-5833-b001-f258f116e198</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C105580</field>
+        <field name="MPN">RC0603FR-075K1L</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="R" description="Resistor"/>
+      <property name="LCSC" value="C105580"/>
+      <property name="MPN" value="RC0603FR-075K1L"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value=""/>
+      <property name="Sheetname" value="ESP32_USB_Audio"/>
+      <property name="Sheetfile" value="ESP32_USB_Audio.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/ESP32_USB_Audio/" tstamps="/28291874-631c-52ae-acd6-89d71ff53e3a/"/>
+      <tstamps>b9d54272-b36c-57ce-891f-54d74a054246</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C98220</field>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Uważać: R14/R15 VREF dzielnik DÓŁ -&gt; GND; reszta wg schematu</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="R" description="Resistor"/>
+      <property name="LCSC" value="C98220"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Uważać: R14/R15 VREF dzielnik DÓŁ -&gt; GND; reszta wg schematu"/>
+      <property name="Sheetname" value="ESP32_USB_Audio"/>
+      <property name="Sheetfile" value="ESP32_USB_Audio.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/ESP32_USB_Audio/" tstamps="/28291874-631c-52ae-acd6-89d71ff53e3a/"/>
+      <tstamps>9a291a4e-8585-56a2-80b1-f6ca15bb641d</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C98220</field>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Uważać: R14/R15 VREF dzielnik DÓŁ -&gt; GND; reszta wg schematu</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="R" description="Resistor"/>
+      <property name="LCSC" value="C98220"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Uważać: R14/R15 VREF dzielnik DÓŁ -&gt; GND; reszta wg schematu"/>
+      <property name="Sheetname" value="ESP32_USB_Audio"/>
+      <property name="Sheetfile" value="ESP32_USB_Audio.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/ESP32_USB_Audio/" tstamps="/28291874-631c-52ae-acd6-89d71ff53e3a/"/>
+      <tstamps>e120649b-9ccd-55a1-a31b-c965fe51efa8</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C1203</field>
+        <field name="MPN">0603WAJ0220T5E</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Pod dobór USB ESP32-S3; rezystor 22ohm moze wymagać zmian wg guide</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="R" description="Resistor"/>
+      <property name="LCSC" value="C1203"/>
+      <property name="MPN" value="0603WAJ0220T5E"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Pod dobór USB ESP32-S3; rezystor 22ohm moze wymagać zmian wg guide"/>
+      <property name="Sheetname" value="ESP32_USB_Audio"/>
+      <property name="Sheetfile" value="ESP32_USB_Audio.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/ESP32_USB_Audio/" tstamps="/28291874-631c-52ae-acd6-89d71ff53e3a/"/>
+      <tstamps>1691be0a-44da-53b1-9b95-cfdf359617ee</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C1203</field>
+        <field name="MPN">0603WAJ0220T5E</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Pod dobór USB ESP32-S3; rezystor 22ohm moze wymagać zmian wg guide</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="R" description="Resistor"/>
+      <property name="LCSC" value="C1203"/>
+      <property name="MPN" value="0603WAJ0220T5E"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Pod dobór USB ESP32-S3; rezystor 22ohm moze wymagać zmian wg guide"/>
+      <property name="Sheetname" value="ESP32_USB_Audio"/>
+      <property name="Sheetfile" value="ESP32_USB_Audio.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/ESP32_USB_Audio/" tstamps="/28291874-631c-52ae-acd6-89d71ff53e3a/"/>
+      <tstamps>f0b2b031-01f7-5925-9696-bcf402577b70</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>TS-1187A-B-A-B</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A</footprint>
+      <fields>
+        <field name="LCSC">C318884</field>
+        <field name="MPN">TS-1187A-B-A-B</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">BOOT GPIO0-&gt;GND; RESET EN-&gt;GND; STM reset przez SWD</field>
+        <field name="Footprint">Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="LCSC" value="C318884"/>
+      <property name="MPN" value="TS-1187A-B-A-B"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="BOOT GPIO0-&gt;GND; RESET EN-&gt;GND; STM reset przez SWD"/>
+      <property name="Sheetname" value="ESP32_USB_Audio"/>
+      <property name="Sheetfile" value="ESP32_USB_Audio.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/ESP32_USB_Audio/" tstamps="/28291874-631c-52ae-acd6-89d71ff53e3a/"/>
+      <tstamps>f62f6489-eb52-54e0-8f2d-a464f6350330</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>TS-1187A-B-A-B</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A</footprint>
+      <fields>
+        <field name="LCSC">C318884</field>
+        <field name="MPN">TS-1187A-B-A-B</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">BOOT GPIO0-&gt;GND; RESET EN-&gt;GND; STM reset przez SWD</field>
+        <field name="Footprint">Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="LCSC" value="C318884"/>
+      <property name="MPN" value="TS-1187A-B-A-B"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="BOOT GPIO0-&gt;GND; RESET EN-&gt;GND; STM reset przez SWD"/>
+      <property name="Sheetname" value="ESP32_USB_Audio"/>
+      <property name="Sheetfile" value="ESP32_USB_Audio.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/ESP32_USB_Audio/" tstamps="/28291874-631c-52ae-acd6-89d71ff53e3a/"/>
+      <tstamps>5bbc871c-e5c4-58a5-87bf-00aee9a432bc</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>ESP32-S3-WROOM-1-N8</value>
+      <footprint>RF_Module:ESP32-S3-WROOM-1</footprint>
+      <datasheet>https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2913198</field>
+        <field name="MPN">ESP32-S3-WROOM-1-N8</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">8MB Flash, BEZ PSRAM; USB GPIO19/20; antena wymaga keepout; nie Bluetooth Classic</field>
+        <field name="Footprint">RF_Module:ESP32-S3-WROOM-1</field>
+        <field name="Datasheet">https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="ESP32-S3-WROOM-1" description="RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, onboard antenna, SMD"/>
+      <property name="LCSC" value="C2913198"/>
+      <property name="MPN" value="ESP32-S3-WROOM-1-N8"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="8MB Flash, BEZ PSRAM; USB GPIO19/20; antena wymaga keepout; nie Bluetooth Classic"/>
+      <property name="Sheetname" value="ESP32_USB_Audio"/>
+      <property name="Sheetfile" value="ESP32_USB_Audio.kicad_sch"/>
+      <property name="ki_keywords" value="RF Radio BT ESP ESP32-S3 Espressif onboard PCB antenna"/>
+      <property name="ki_fp_filters" value="ESP32?S3?WROOM?1*"/>
+      <sheetpath names="/ESP32_USB_Audio/" tstamps="/28291874-631c-52ae-acd6-89d71ff53e3a/"/>
+      <tstamps>85b0e735-bfa4-54e8-832d-55e31ee5aa0e</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>USBLC6-2SC6</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/usblc6-2.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C7519</field>
+        <field name="MPN">USBLC6-2SC6</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Zgodnie z datasheet zabezpieczenie D+ D- przy J1</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/usblc6-2.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="USBLC6-2SC6" description="Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"/>
+      <property name="LCSC" value="C7519"/>
+      <property name="MPN" value="USBLC6-2SC6"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Zgodnie z datasheet zabezpieczenie D+ D- przy J1"/>
+      <property name="Sheetname" value="ESP32_USB_Audio"/>
+      <property name="Sheetfile" value="ESP32_USB_Audio.kicad_sch"/>
+      <property name="ki_keywords" value="usb ethernet video"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/ESP32_USB_Audio/" tstamps="/28291874-631c-52ae-acd6-89d71ff53e3a/"/>
+      <tstamps>e5b087bf-5672-5253-ab8d-fc0d45620788</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>100nF 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Zapewnij skuteczne 100nF na kazdym wymaganym piny zasilania; sprawdź liczby wg datasheet</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Zapewnij skuteczne 100nF na kazdym wymaganym piny zasilania; sprawdź liczby wg datasheet"/>
+      <property name="Sheetname" value="Motor_Drivers"/>
+      <property name="Sheetfile" value="Motor_Drivers.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Motor_Drivers/" tstamps="/180b142b-81ed-5d91-9aca-b179a6c8423f/"/>
+      <tstamps>4933573a-c656-5541-a045-aed17700ae01</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>100nF 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Zapewnij skuteczne 100nF na kazdym wymaganym piny zasilania; sprawdź liczby wg datasheet</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Zapewnij skuteczne 100nF na kazdym wymaganym piny zasilania; sprawdź liczby wg datasheet"/>
+      <property name="Sheetname" value="Motor_Drivers"/>
+      <property name="Sheetfile" value="Motor_Drivers.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Motor_Drivers/" tstamps="/180b142b-81ed-5d91-9aca-b179a6c8423f/"/>
+      <tstamps>ae336a28-8061-50cb-a6d8-e5d810f4a801</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>100uF 25V</value>
+      <fields>
+        <field name="LCSC">C970685</field>
+        <field name="MPN">RVT1E101M0607</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">UNASSIGNED_PENDING_DATASHEET</field>
+        <field name="Design_Note">Zadbaj o biegunowosc i dostateczny prąd ripple</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="LCSC" value="C970685"/>
+      <property name="MPN" value="RVT1E101M0607"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="UNASSIGNED_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Zadbaj o biegunowosc i dostateczny prąd ripple"/>
+      <property name="Sheetname" value="Motor_Drivers"/>
+      <property name="Sheetfile" value="Motor_Drivers.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/Motor_Drivers/" tstamps="/180b142b-81ed-5d91-9aca-b179a6c8423f/"/>
+      <tstamps>d4c642ce-281d-54ba-99ea-059704d1fe81</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>100uF 25V</value>
+      <fields>
+        <field name="LCSC">C970685</field>
+        <field name="MPN">RVT1E101M0607</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">UNASSIGNED_PENDING_DATASHEET</field>
+        <field name="Design_Note">Zadbaj o biegunowosc i dostateczny prąd ripple</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="LCSC" value="C970685"/>
+      <property name="MPN" value="RVT1E101M0607"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="UNASSIGNED_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Zadbaj o biegunowosc i dostateczny prąd ripple"/>
+      <property name="Sheetname" value="Motor_Drivers"/>
+      <property name="Sheetfile" value="Motor_Drivers.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/Motor_Drivers/" tstamps="/180b142b-81ed-5d91-9aca-b179a6c8423f/"/>
+      <tstamps>35dab83d-174a-5414-825a-9f0350f23828</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>100nF 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Zapewnij skuteczne 100nF na kazdym wymaganym piny zasilania; sprawdź liczby wg datasheet</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Zapewnij skuteczne 100nF na kazdym wymaganym piny zasilania; sprawdź liczby wg datasheet"/>
+      <property name="Sheetname" value="Motor_Drivers"/>
+      <property name="Sheetfile" value="Motor_Drivers.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Motor_Drivers/" tstamps="/180b142b-81ed-5d91-9aca-b179a6c8423f/"/>
+      <tstamps>8449f81b-0cbd-5039-b3dd-ef9ada9abfb0</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>100nF 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Zapewnij skuteczne 100nF na kazdym wymaganym piny zasilania; sprawdź liczby wg datasheet</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Zapewnij skuteczne 100nF na kazdym wymaganym piny zasilania; sprawdź liczby wg datasheet"/>
+      <property name="Sheetname" value="Motor_Drivers"/>
+      <property name="Sheetfile" value="Motor_Drivers.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Motor_Drivers/" tstamps="/180b142b-81ed-5d91-9aca-b179a6c8423f/"/>
+      <tstamps>31c04fb7-c024-5e34-b160-e352a8e063a0</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>22nF 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C106222</field>
+        <field name="MPN">CC0603KRX7R9BB223</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Wymagane przez DRV8876; w pobliżu układu</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C106222"/>
+      <property name="MPN" value="CC0603KRX7R9BB223"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Wymagane przez DRV8876; w pobliżu układu"/>
+      <property name="Sheetname" value="Motor_Drivers"/>
+      <property name="Sheetfile" value="Motor_Drivers.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Motor_Drivers/" tstamps="/180b142b-81ed-5d91-9aca-b179a6c8423f/"/>
+      <tstamps>ef62cc77-2d02-5b1e-b81b-e2f1209b09be</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>22nF 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C106222</field>
+        <field name="MPN">CC0603KRX7R9BB223</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Wymagane przez DRV8876; w pobliżu układu</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C106222"/>
+      <property name="MPN" value="CC0603KRX7R9BB223"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Wymagane przez DRV8876; w pobliżu układu"/>
+      <property name="Sheetname" value="Motor_Drivers"/>
+      <property name="Sheetfile" value="Motor_Drivers.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Motor_Drivers/" tstamps="/180b142b-81ed-5d91-9aca-b179a6c8423f/"/>
+      <tstamps>1a0919df-b21f-5348-ac12-992b1694f678</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>1nF 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C5375733</field>
+        <field name="MPN">TCC0603X7R102M500CTS</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Na wejsciach o dłuzszych przewodach przewidziec filtrację i ESD; ocena testowa</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C5375733"/>
+      <property name="MPN" value="TCC0603X7R102M500CTS"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Na wejsciach o dłuzszych przewodach przewidziec filtrację i ESD; ocena testowa"/>
+      <property name="Sheetname" value="Motor_Drivers"/>
+      <property name="Sheetfile" value="Motor_Drivers.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Motor_Drivers/" tstamps="/180b142b-81ed-5d91-9aca-b179a6c8423f/"/>
+      <tstamps>53cf491c-7978-5688-b609-f52c111e3b2d</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>1nF 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C5375733</field>
+        <field name="MPN">TCC0603X7R102M500CTS</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Na wejsciach o dłuzszych przewodach przewidziec filtrację i ESD; ocena testowa</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C5375733"/>
+      <property name="MPN" value="TCC0603X7R102M500CTS"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Na wejsciach o dłuzszych przewodach przewidziec filtrację i ESD; ocena testowa"/>
+      <property name="Sheetname" value="Motor_Drivers"/>
+      <property name="Sheetfile" value="Motor_Drivers.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Motor_Drivers/" tstamps="/180b142b-81ed-5d91-9aca-b179a6c8423f/"/>
+      <tstamps>97d0483b-5969-56b5-90a3-d30622a751c0</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>KF2024R-2.54-2P</value>
+      <fields>
+        <field name="LCSC">C42371592</field>
+        <field name="MPN">KF2024R-2.54-2P</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">UNASSIGNED_PENDING_DATASHEET</field>
+        <field name="Design_Note">Gniazda do 12V oraz 2 silnikow, koniecznie zweryfikować rodzaj wtyku i rzeczywisty limit prądowy</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C42371592"/>
+      <property name="MPN" value="KF2024R-2.54-2P"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="UNASSIGNED_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Gniazda do 12V oraz 2 silnikow, koniecznie zweryfikować rodzaj wtyku i rzeczywisty limit prądowy"/>
+      <property name="Sheetname" value="Motor_Drivers"/>
+      <property name="Sheetfile" value="Motor_Drivers.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Motor_Drivers/" tstamps="/180b142b-81ed-5d91-9aca-b179a6c8423f/"/>
+      <tstamps>572b041e-101b-5216-9f20-4871af587e18</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>KF2024R-2.54-2P</value>
+      <fields>
+        <field name="LCSC">C42371592</field>
+        <field name="MPN">KF2024R-2.54-2P</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">UNASSIGNED_PENDING_DATASHEET</field>
+        <field name="Design_Note">Gniazda do 12V oraz 2 silnikow, koniecznie zweryfikować rodzaj wtyku i rzeczywisty limit prądowy</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C42371592"/>
+      <property name="MPN" value="KF2024R-2.54-2P"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="UNASSIGNED_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Gniazda do 12V oraz 2 silnikow, koniecznie zweryfikować rodzaj wtyku i rzeczywisty limit prądowy"/>
+      <property name="Sheetname" value="Motor_Drivers"/>
+      <property name="Sheetfile" value="Motor_Drivers.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Motor_Drivers/" tstamps="/180b142b-81ed-5d91-9aca-b179a6c8423f/"/>
+      <tstamps>27027203-1dd2-5dc4-ae26-26f9fbd9b865</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C98220</field>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Uważać: R14/R15 VREF dzielnik DÓŁ -&gt; GND; reszta wg schematu</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="R" description="Resistor"/>
+      <property name="LCSC" value="C98220"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Uważać: R14/R15 VREF dzielnik DÓŁ -&gt; GND; reszta wg schematu"/>
+      <property name="Sheetname" value="Motor_Drivers"/>
+      <property name="Sheetfile" value="Motor_Drivers.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Motor_Drivers/" tstamps="/180b142b-81ed-5d91-9aca-b179a6c8423f/"/>
+      <tstamps>e43c23a3-f7bf-5987-af20-f2f21029b788</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C98220</field>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Uważać: R14/R15 VREF dzielnik DÓŁ -&gt; GND; reszta wg schematu</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="R" description="Resistor"/>
+      <property name="LCSC" value="C98220"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Uważać: R14/R15 VREF dzielnik DÓŁ -&gt; GND; reszta wg schematu"/>
+      <property name="Sheetname" value="Motor_Drivers"/>
+      <property name="Sheetfile" value="Motor_Drivers.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Motor_Drivers/" tstamps="/180b142b-81ed-5d91-9aca-b179a6c8423f/"/>
+      <tstamps>ed08672e-484c-5275-85ae-b1d3153eb4cb</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>2.49k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C108190</field>
+        <field name="MPN">RC0603FR-072K49L</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">ADC skaluje ok. 2.49V/A typowo; sprawdź tolerancje scalaka</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="R" description="Resistor"/>
+      <property name="LCSC" value="C108190"/>
+      <property name="MPN" value="RC0603FR-072K49L"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="ADC skaluje ok. 2.49V/A typowo; sprawdź tolerancje scalaka"/>
+      <property name="Sheetname" value="Motor_Drivers"/>
+      <property name="Sheetfile" value="Motor_Drivers.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Motor_Drivers/" tstamps="/180b142b-81ed-5d91-9aca-b179a6c8423f/"/>
+      <tstamps>eefbdc11-f3a5-56d3-83c5-3cdf11f92441</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>2.49k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C108190</field>
+        <field name="MPN">RC0603FR-072K49L</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">ADC skaluje ok. 2.49V/A typowo; sprawdź tolerancje scalaka</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="R" description="Resistor"/>
+      <property name="LCSC" value="C108190"/>
+      <property name="MPN" value="RC0603FR-072K49L"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="ADC skaluje ok. 2.49V/A typowo; sprawdź tolerancje scalaka"/>
+      <property name="Sheetname" value="Motor_Drivers"/>
+      <property name="Sheetfile" value="Motor_Drivers.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Motor_Drivers/" tstamps="/180b142b-81ed-5d91-9aca-b179a6c8423f/"/>
+      <tstamps>77abdad3-37a4-5d61-ae38-1d20e8708d85</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C98220</field>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Uważać: R14/R15 VREF dzielnik DÓŁ -&gt; GND; reszta wg schematu</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="R" description="Resistor"/>
+      <property name="LCSC" value="C98220"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Uważać: R14/R15 VREF dzielnik DÓŁ -&gt; GND; reszta wg schematu"/>
+      <property name="Sheetname" value="Motor_Drivers"/>
+      <property name="Sheetfile" value="Motor_Drivers.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Motor_Drivers/" tstamps="/180b142b-81ed-5d91-9aca-b179a6c8423f/"/>
+      <tstamps>f29fb918-06d4-59c4-a354-c0dcc06cd4af</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C98220</field>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Uważać: R14/R15 VREF dzielnik DÓŁ -&gt; GND; reszta wg schematu</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="R" description="Resistor"/>
+      <property name="LCSC" value="C98220"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Uważać: R14/R15 VREF dzielnik DÓŁ -&gt; GND; reszta wg schematu"/>
+      <property name="Sheetname" value="Motor_Drivers"/>
+      <property name="Sheetfile" value="Motor_Drivers.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Motor_Drivers/" tstamps="/180b142b-81ed-5d91-9aca-b179a6c8423f/"/>
+      <tstamps>5314ad2c-109a-5649-9c44-bf9d556116f5</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>6.8k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C114632</field>
+        <field name="MPN">RC0603FR-076K8L</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Z 10k dolnym Vref ok. 1.96V -&gt; wstepny Itrip ~0.79A, do przeliczenia po wyborze silnika</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="R" description="Resistor"/>
+      <property name="LCSC" value="C114632"/>
+      <property name="MPN" value="RC0603FR-076K8L"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Z 10k dolnym Vref ok. 1.96V -&gt; wstepny Itrip ~0.79A, do przeliczenia po wyborze silnika"/>
+      <property name="Sheetname" value="Motor_Drivers"/>
+      <property name="Sheetfile" value="Motor_Drivers.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Motor_Drivers/" tstamps="/180b142b-81ed-5d91-9aca-b179a6c8423f/"/>
+      <tstamps>1f86016f-2746-53d4-b0c5-5ad2260480bf</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>6.8k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C114632</field>
+        <field name="MPN">RC0603FR-076K8L</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Z 10k dolnym Vref ok. 1.96V -&gt; wstepny Itrip ~0.79A, do przeliczenia po wyborze silnika</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="R" description="Resistor"/>
+      <property name="LCSC" value="C114632"/>
+      <property name="MPN" value="RC0603FR-076K8L"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Z 10k dolnym Vref ok. 1.96V -&gt; wstepny Itrip ~0.79A, do przeliczenia po wyborze silnika"/>
+      <property name="Sheetname" value="Motor_Drivers"/>
+      <property name="Sheetfile" value="Motor_Drivers.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Motor_Drivers/" tstamps="/180b142b-81ed-5d91-9aca-b179a6c8423f/"/>
+      <tstamps>d4e0d1ca-1463-5307-bbfc-9e95d3987fda</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>DRV8876RGTR</value>
+      <datasheet>https://www.ti.com/lit/ds/symlink/drv8876.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C1852100</field>
+        <field name="MPN">DRV8876RGTR</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">UNASSIGNED_PENDING_DATASHEET</field>
+        <field name="Design_Note">Prąd szczytowy do 3.5 A; NIEWYBRANY ostatecznie bez prądu rozruchowego/zablokowania siłownika; EP do GND</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/drv8876.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="DRV8876RGT_WORKBOOK" description="RGT pin map from workbook; EP/land pattern TO VERIFY"/>
+      <property name="LCSC" value="C1852100"/>
+      <property name="MPN" value="DRV8876RGTR"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="UNASSIGNED_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Prąd szczytowy do 3.5 A; NIEWYBRANY ostatecznie bez prądu rozruchowego/zablokowania siłownika; EP do GND"/>
+      <property name="Sheetname" value="Motor_Drivers"/>
+      <property name="Sheetfile" value="Motor_Drivers.kicad_sch"/>
+      <sheetpath names="/Motor_Drivers/" tstamps="/180b142b-81ed-5d91-9aca-b179a6c8423f/"/>
+      <tstamps>6d568c21-cda2-51be-8838-f0f3c0ba6b57</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>DRV8876RGTR</value>
+      <datasheet>https://www.ti.com/lit/ds/symlink/drv8876.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C1852100</field>
+        <field name="MPN">DRV8876RGTR</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">UNASSIGNED_PENDING_DATASHEET</field>
+        <field name="Design_Note">Prąd szczytowy do 3.5 A; NIEWYBRANY ostatecznie bez prądu rozruchowego/zablokowania siłownika; EP do GND</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/drv8876.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="DRV8876RGT_WORKBOOK" description="RGT pin map from workbook; EP/land pattern TO VERIFY"/>
+      <property name="LCSC" value="C1852100"/>
+      <property name="MPN" value="DRV8876RGTR"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="UNASSIGNED_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Prąd szczytowy do 3.5 A; NIEWYBRANY ostatecznie bez prądu rozruchowego/zablokowania siłownika; EP do GND"/>
+      <property name="Sheetname" value="Motor_Drivers"/>
+      <property name="Sheetfile" value="Motor_Drivers.kicad_sch"/>
+      <sheetpath names="/Motor_Drivers/" tstamps="/180b142b-81ed-5d91-9aca-b179a6c8423f/"/>
+      <tstamps>50f1e5e4-458c-5a1b-9995-3ace9ac336ba</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>1nF 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C5375733</field>
+        <field name="MPN">TCC0603X7R102M500CTS</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Na wejsciach o dłuzszych przewodach przewidziec filtrację i ESD; ocena testowa</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C5375733"/>
+      <property name="MPN" value="TCC0603X7R102M500CTS"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Na wejsciach o dłuzszych przewodach przewidziec filtrację i ESD; ocena testowa"/>
+      <property name="Sheetname" value="Safety_Sensors_Connectors"/>
+      <property name="Sheetfile" value="Safety_Sensors_Connectors.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Safety_Sensors_Connectors/" tstamps="/9d2a48e8-d55e-5dd3-b583-c5dc84abc364/"/>
+      <tstamps>d415410f-0f8c-5bc1-b67d-2b3c982433ad</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>100nF 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Added 100nF local bypass for U8 AND gate</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Added 100nF local bypass for U8 AND gate"/>
+      <property name="Sheetname" value="Safety_Sensors_Connectors"/>
+      <property name="Sheetfile" value="Safety_Sensors_Connectors.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Safety_Sensors_Connectors/" tstamps="/9d2a48e8-d55e-5dd3-b583-c5dc84abc364/"/>
+      <tstamps>f82411f5-623b-5ad5-b939-eb2cc8cba459</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>S5B-PH-SM4-TB(LF)(SN)</value>
+      <footprint>Connector_JST:JST_PH_S5B-PH-SM4-TB_1x05-1MP_P2.00mm_Horizontal</footprint>
+      <fields>
+        <field name="LCSC">C265104</field>
+        <field name="MPN">S5B-PH-SM4-TB(LF)(SN)</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Zakup dopasowanych wtyczek/przewodow gotowych, XSHUT osobny dla 2 identycznych adresow I2C</field>
+        <field name="Footprint">Connector_JST:JST_PH_S5B-PH-SM4-TB_1x05-1MP_P2.00mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C265104"/>
+      <property name="MPN" value="S5B-PH-SM4-TB(LF)(SN)"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Zakup dopasowanych wtyczek/przewodow gotowych, XSHUT osobny dla 2 identycznych adresow I2C"/>
+      <property name="Sheetname" value="Safety_Sensors_Connectors"/>
+      <property name="Sheetfile" value="Safety_Sensors_Connectors.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Safety_Sensors_Connectors/" tstamps="/9d2a48e8-d55e-5dd3-b583-c5dc84abc364/"/>
+      <tstamps>218a73d7-b81d-5e3f-a25b-1e84aa3a5a0e</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>S5B-PH-SM4-TB(LF)(SN)</value>
+      <footprint>Connector_JST:JST_PH_S5B-PH-SM4-TB_1x05-1MP_P2.00mm_Horizontal</footprint>
+      <fields>
+        <field name="LCSC">C265104</field>
+        <field name="MPN">S5B-PH-SM4-TB(LF)(SN)</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Zakup dopasowanych wtyczek/przewodow gotowych, XSHUT osobny dla 2 identycznych adresow I2C</field>
+        <field name="Footprint">Connector_JST:JST_PH_S5B-PH-SM4-TB_1x05-1MP_P2.00mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C265104"/>
+      <property name="MPN" value="S5B-PH-SM4-TB(LF)(SN)"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Zakup dopasowanych wtyczek/przewodow gotowych, XSHUT osobny dla 2 identycznych adresow I2C"/>
+      <property name="Sheetname" value="Safety_Sensors_Connectors"/>
+      <property name="Sheetfile" value="Safety_Sensors_Connectors.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Safety_Sensors_Connectors/" tstamps="/9d2a48e8-d55e-5dd3-b583-c5dc84abc364/"/>
+      <tstamps>51ed374d-5bdc-5484-a980-c291ba983aae</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>S2B-PH-SM4-TB(LF)(SN)</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal</footprint>
+      <fields>
+        <field name="LCSC">C295747</field>
+        <field name="MPN">S2B-PH-SM4-TB(LF)(SN)</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">J9..J12 krańcówki NC do GND; J13 E-STOP NC, J14 bumper górny NC, J15 dolny NC w łańcuchu</field>
+        <field name="Footprint">Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C295747"/>
+      <property name="MPN" value="S2B-PH-SM4-TB(LF)(SN)"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="J9..J12 krańcówki NC do GND; J13 E-STOP NC, J14 bumper górny NC, J15 dolny NC w łańcuchu"/>
+      <property name="Sheetname" value="Safety_Sensors_Connectors"/>
+      <property name="Sheetfile" value="Safety_Sensors_Connectors.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Safety_Sensors_Connectors/" tstamps="/9d2a48e8-d55e-5dd3-b583-c5dc84abc364/"/>
+      <tstamps>61c942cd-9f3e-5355-aaf2-d373eb0c2acf</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>S2B-PH-SM4-TB(LF)(SN)</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal</footprint>
+      <fields>
+        <field name="LCSC">C295747</field>
+        <field name="MPN">S2B-PH-SM4-TB(LF)(SN)</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">J9..J12 krańcówki NC do GND; J13 E-STOP NC, J14 bumper górny NC, J15 dolny NC w łańcuchu</field>
+        <field name="Footprint">Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C295747"/>
+      <property name="MPN" value="S2B-PH-SM4-TB(LF)(SN)"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="J9..J12 krańcówki NC do GND; J13 E-STOP NC, J14 bumper górny NC, J15 dolny NC w łańcuchu"/>
+      <property name="Sheetname" value="Safety_Sensors_Connectors"/>
+      <property name="Sheetfile" value="Safety_Sensors_Connectors.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Safety_Sensors_Connectors/" tstamps="/9d2a48e8-d55e-5dd3-b583-c5dc84abc364/"/>
+      <tstamps>c1569c10-0992-55ab-b8af-61683b191acc</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>S2B-PH-SM4-TB(LF)(SN)</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal</footprint>
+      <fields>
+        <field name="LCSC">C295747</field>
+        <field name="MPN">S2B-PH-SM4-TB(LF)(SN)</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">J9..J12 krańcówki NC do GND; J13 E-STOP NC, J14 bumper górny NC, J15 dolny NC w łańcuchu</field>
+        <field name="Footprint">Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C295747"/>
+      <property name="MPN" value="S2B-PH-SM4-TB(LF)(SN)"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="J9..J12 krańcówki NC do GND; J13 E-STOP NC, J14 bumper górny NC, J15 dolny NC w łańcuchu"/>
+      <property name="Sheetname" value="Safety_Sensors_Connectors"/>
+      <property name="Sheetfile" value="Safety_Sensors_Connectors.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Safety_Sensors_Connectors/" tstamps="/9d2a48e8-d55e-5dd3-b583-c5dc84abc364/"/>
+      <tstamps>2b9fbae3-3350-5e5a-83ca-d8a4f1cabeca</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>S2B-PH-SM4-TB(LF)(SN)</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal</footprint>
+      <fields>
+        <field name="LCSC">C295747</field>
+        <field name="MPN">S2B-PH-SM4-TB(LF)(SN)</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">J9..J12 krańcówki NC do GND; J13 E-STOP NC, J14 bumper górny NC, J15 dolny NC w łańcuchu</field>
+        <field name="Footprint">Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C295747"/>
+      <property name="MPN" value="S2B-PH-SM4-TB(LF)(SN)"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="J9..J12 krańcówki NC do GND; J13 E-STOP NC, J14 bumper górny NC, J15 dolny NC w łańcuchu"/>
+      <property name="Sheetname" value="Safety_Sensors_Connectors"/>
+      <property name="Sheetfile" value="Safety_Sensors_Connectors.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Safety_Sensors_Connectors/" tstamps="/9d2a48e8-d55e-5dd3-b583-c5dc84abc364/"/>
+      <tstamps>8efd91f4-d079-590e-8211-c76b1b0b8a74</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>S2B-PH-SM4-TB(LF)(SN)</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal</footprint>
+      <fields>
+        <field name="LCSC">C295747</field>
+        <field name="MPN">S2B-PH-SM4-TB(LF)(SN)</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">J9..J12 krańcówki NC do GND; J13 E-STOP NC, J14 bumper górny NC, J15 dolny NC w łańcuchu</field>
+        <field name="Footprint">Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C295747"/>
+      <property name="MPN" value="S2B-PH-SM4-TB(LF)(SN)"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="J9..J12 krańcówki NC do GND; J13 E-STOP NC, J14 bumper górny NC, J15 dolny NC w łańcuchu"/>
+      <property name="Sheetname" value="Safety_Sensors_Connectors"/>
+      <property name="Sheetfile" value="Safety_Sensors_Connectors.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Safety_Sensors_Connectors/" tstamps="/9d2a48e8-d55e-5dd3-b583-c5dc84abc364/"/>
+      <tstamps>1238f3bd-f840-5693-be3d-dc3bd035c7c4</tstamps>
+    </comp>
+    <comp ref="J14">
+      <value>S2B-PH-SM4-TB(LF)(SN)</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal</footprint>
+      <fields>
+        <field name="LCSC">C295747</field>
+        <field name="MPN">S2B-PH-SM4-TB(LF)(SN)</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">J9..J12 krańcówki NC do GND; J13 E-STOP NC, J14 bumper górny NC, J15 dolny NC w łańcuchu</field>
+        <field name="Footprint">Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C295747"/>
+      <property name="MPN" value="S2B-PH-SM4-TB(LF)(SN)"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="J9..J12 krańcówki NC do GND; J13 E-STOP NC, J14 bumper górny NC, J15 dolny NC w łańcuchu"/>
+      <property name="Sheetname" value="Safety_Sensors_Connectors"/>
+      <property name="Sheetfile" value="Safety_Sensors_Connectors.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Safety_Sensors_Connectors/" tstamps="/9d2a48e8-d55e-5dd3-b583-c5dc84abc364/"/>
+      <tstamps>ef8d56a2-3b0e-5e15-bb2b-2366ebbb2837</tstamps>
+    </comp>
+    <comp ref="J15">
+      <value>S2B-PH-SM4-TB(LF)(SN)</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal</footprint>
+      <fields>
+        <field name="LCSC">C295747</field>
+        <field name="MPN">S2B-PH-SM4-TB(LF)(SN)</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">J9..J12 krańcówki NC do GND; J13 E-STOP NC, J14 bumper górny NC, J15 dolny NC w łańcuchu</field>
+        <field name="Footprint">Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C295747"/>
+      <property name="MPN" value="S2B-PH-SM4-TB(LF)(SN)"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="J9..J12 krańcówki NC do GND; J13 E-STOP NC, J14 bumper górny NC, J15 dolny NC w łańcuchu"/>
+      <property name="Sheetname" value="Safety_Sensors_Connectors"/>
+      <property name="Sheetfile" value="Safety_Sensors_Connectors.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Safety_Sensors_Connectors/" tstamps="/9d2a48e8-d55e-5dd3-b583-c5dc84abc364/"/>
+      <tstamps>2f7f8934-303e-5f2e-879a-ca0772ccb32b</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C98220</field>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Uważać: R14/R15 VREF dzielnik DÓŁ -&gt; GND; reszta wg schematu</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="R" description="Resistor"/>
+      <property name="LCSC" value="C98220"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Uważać: R14/R15 VREF dzielnik DÓŁ -&gt; GND; reszta wg schematu"/>
+      <property name="Sheetname" value="Safety_Sensors_Connectors"/>
+      <property name="Sheetfile" value="Safety_Sensors_Connectors.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Safety_Sensors_Connectors/" tstamps="/9d2a48e8-d55e-5dd3-b583-c5dc84abc364/"/>
+      <tstamps>b811e6ef-7902-5492-b269-7dd3ce65a4b5</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C98220</field>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Uważać: R14/R15 VREF dzielnik DÓŁ -&gt; GND; reszta wg schematu</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="R" description="Resistor"/>
+      <property name="LCSC" value="C98220"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Uważać: R14/R15 VREF dzielnik DÓŁ -&gt; GND; reszta wg schematu"/>
+      <property name="Sheetname" value="Safety_Sensors_Connectors"/>
+      <property name="Sheetfile" value="Safety_Sensors_Connectors.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Safety_Sensors_Connectors/" tstamps="/9d2a48e8-d55e-5dd3-b583-c5dc84abc364/"/>
+      <tstamps>e2ebefa7-a886-5145-9e2f-95bdc56a6c2d</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C99782</field>
+        <field name="MPN">RC0603FR-074K7L</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="R" description="Resistor"/>
+      <property name="LCSC" value="C99782"/>
+      <property name="MPN" value="RC0603FR-074K7L"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value=""/>
+      <property name="Sheetname" value="Safety_Sensors_Connectors"/>
+      <property name="Sheetfile" value="Safety_Sensors_Connectors.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Safety_Sensors_Connectors/" tstamps="/9d2a48e8-d55e-5dd3-b583-c5dc84abc364/"/>
+      <tstamps>bcd29f90-e7c1-5cb3-812f-bd935532430e</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C99782</field>
+        <field name="MPN">RC0603FR-074K7L</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="R" description="Resistor"/>
+      <property name="LCSC" value="C99782"/>
+      <property name="MPN" value="RC0603FR-074K7L"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value=""/>
+      <property name="Sheetname" value="Safety_Sensors_Connectors"/>
+      <property name="Sheetfile" value="Safety_Sensors_Connectors.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Safety_Sensors_Connectors/" tstamps="/9d2a48e8-d55e-5dd3-b583-c5dc84abc364/"/>
+      <tstamps>5d76e785-58fd-54d5-8da6-38d766294716</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C98220</field>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Added explicit 10k nSLEEP pulldown; must check AND output loading</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="R" description="Resistor"/>
+      <property name="LCSC" value="C98220"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Added explicit 10k nSLEEP pulldown; must check AND output loading"/>
+      <property name="Sheetname" value="Safety_Sensors_Connectors"/>
+      <property name="Sheetfile" value="Safety_Sensors_Connectors.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Safety_Sensors_Connectors/" tstamps="/9d2a48e8-d55e-5dd3-b583-c5dc84abc364/"/>
+      <tstamps>9ada130d-4236-5ff4-904d-34837c97f711</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>SN74LVC1G08DBVR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C7666</field>
+        <field name="MPN">SN74LVC1G08DBVR</field>
+        <field name="Catalog_Status">FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED</field>
+        <field name="Footprint_Status">LIBRARY_CANDIDATE_PENDING_DATASHEET</field>
+        <field name="Design_Note">Sprzetowe odciecie driverow przy przerwanym NC loop; NIE jest certyfikowane</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Szafka" part="74LVC1G08" description="Single AND Gate, Low-Voltage CMOS"/>
+      <property name="LCSC" value="C7666"/>
+      <property name="MPN" value="SN74LVC1G08DBVR"/>
+      <property name="Catalog_Status" value="FROM_WORKBOOK_NOT_INDEPENDENTLY_VERIFIED"/>
+      <property name="Footprint_Status" value="LIBRARY_CANDIDATE_PENDING_DATASHEET"/>
+      <property name="Design_Note" value="Sprzetowe odciecie driverow przy przerwanym NC loop; NIE jest certyfikowane"/>
+      <property name="Sheetname" value="Safety_Sensors_Connectors"/>
+      <property name="Sheetfile" value="Safety_Sensors_Connectors.kicad_sch"/>
+      <property name="ki_keywords" value="Single Gate AND LVC CMOS"/>
+      <property name="ki_fp_filters" value="SOT?23* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*"/>
+      <sheetpath names="/Safety_Sensors_Connectors/" tstamps="/9d2a48e8-d55e-5dd3-b583-c5dc84abc364/"/>
+      <tstamps>e120ca0e-ac17-50a5-9c30-b54c13f1ef23</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Szafka" part="74LVC1G08">
+      <description>Single AND Gate, Low-Voltage CMOS</description>
+      <docs>https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+        <fp>Texas?R-PDSO-G5?DCK*</fp>
+        <fp>Texas?R-PDSO-N5?DRL*</fp>
+        <fp>Texas?X2SON*0.8x0.8mm*P0.48mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LVC1G08</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf</field>
+        <field name="Description">Single AND Gate, Low-Voltage CMOS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Szafka" part="AP63203WU">
+      <description>2A, 1.1MHz Buck DC/DC Converter, fixed 3.3V output voltage, TSOT-23-6</description>
+      <docs>https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf</docs>
+      <footprints>
+        <fp>TSOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP63203WU</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TSOT-23-6</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf</field>
+        <field name="Description">2A, 1.1MHz Buck DC/DC Converter, fixed 3.3V output voltage, TSOT-23-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="FB" type="input"/>
+        <pin num="2" name="EN" type="input"/>
+        <pin num="3" name="IN" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SW" type="output"/>
+        <pin num="6" name="BST" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Szafka" part="AP63205WU">
+      <description>2A, 1.1MHz Buck DC/DC Converter, fixed 5.0V output voltage, TSOT-23-6</description>
+      <docs>https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf</docs>
+      <footprints>
+        <fp>TSOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP63205WU</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TSOT-23-6</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf</field>
+        <field name="Description">2A, 1.1MHz Buck DC/DC Converter, fixed 5.0V output voltage, TSOT-23-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="FB" type="input"/>
+        <pin num="2" name="EN" type="input"/>
+        <pin num="3" name="IN" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SW" type="output"/>
+        <pin num="6" name="BST" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Szafka" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Szafka" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Polarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Szafka" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Szafka" part="Conn_01x05">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Szafka" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Szafka" part="Conn_02x07_Odd_Even">
+      <description>Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x07_Odd_Even</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Szafka" part="DRV8876RGT_WORKBOOK">
+      <description>RGT pin map from workbook; EP/land pattern TO VERIFY</description>
+      <docs>https://www.ti.com/lit/ds/symlink/drv8876.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DRV8876RGTR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/drv8876.pdf</field>
+        <field name="Description">RGT pin map from workbook; EP/land pattern TO VERIFY</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{SLEEP}" type="input"/>
+        <pin num="2" name="~{FAULT}" type="open_collector"/>
+        <pin num="3" name="VREF" type="input"/>
+        <pin num="4" name="IPROPI" type="output"/>
+        <pin num="5" name="IMODE" type="input"/>
+        <pin num="6" name="OUT1" type="output"/>
+        <pin num="7" name="PGND" type="power_in"/>
+        <pin num="8" name="OUT2" type="output"/>
+        <pin num="9" name="VM" type="power_in"/>
+        <pin num="10" name="VCP" type="passive"/>
+        <pin num="11" name="CPH" type="passive"/>
+        <pin num="12" name="CPL" type="passive"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="PMODE" type="input"/>
+        <pin num="15" name="EN/IN1" type="input"/>
+        <pin num="16" name="PH/IN2" type="input"/>
+        <pin num="EP" name="EP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Szafka" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Schottky diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Szafka" part="D_TVS">
+      <description>Bidirectional transient-voltage-suppression diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_TVS</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Bidirectional transient-voltage-suppression diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Szafka" part="ESP32-S3-WROOM-1">
+      <description>RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, onboard antenna, SMD</description>
+      <docs>https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf</docs>
+      <footprints>
+        <fp>ESP32?S3?WROOM?1*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-S3-WROOM-1</field>
+        <field name="Footprint">RF_Module:ESP32-S3-WROOM-1</field>
+        <field name="Datasheet">https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf</field>
+        <field name="Description">RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, onboard antenna, SMD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="3V3" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="IO4" type="bidirectional"/>
+        <pin num="5" name="IO5" type="bidirectional"/>
+        <pin num="6" name="IO6" type="bidirectional"/>
+        <pin num="7" name="IO7" type="bidirectional"/>
+        <pin num="8" name="IO15" type="bidirectional"/>
+        <pin num="9" name="IO16" type="bidirectional"/>
+        <pin num="10" name="IO17" type="bidirectional"/>
+        <pin num="11" name="IO18" type="bidirectional"/>
+        <pin num="12" name="IO8" type="bidirectional"/>
+        <pin num="13" name="USB_D-" type="bidirectional"/>
+        <pin num="14" name="USB_D+" type="bidirectional"/>
+        <pin num="15" name="IO3" type="bidirectional"/>
+        <pin num="16" name="IO46" type="bidirectional"/>
+        <pin num="17" name="IO9" type="bidirectional"/>
+        <pin num="18" name="IO10" type="bidirectional"/>
+        <pin num="19" name="IO11" type="bidirectional"/>
+        <pin num="20" name="IO12" type="bidirectional"/>
+        <pin num="21" name="IO13" type="bidirectional"/>
+        <pin num="22" name="IO14" type="bidirectional"/>
+        <pin num="23" name="IO21" type="bidirectional"/>
+        <pin num="24" name="IO47" type="bidirectional"/>
+        <pin num="25" name="IO48" type="bidirectional"/>
+        <pin num="26" name="IO45" type="bidirectional"/>
+        <pin num="27" name="IO0" type="bidirectional"/>
+        <pin num="28" name="IO35" type="bidirectional"/>
+        <pin num="29" name="IO36" type="bidirectional"/>
+        <pin num="30" name="IO37" type="bidirectional"/>
+        <pin num="31" name="IO38" type="bidirectional"/>
+        <pin num="32" name="IO39" type="bidirectional"/>
+        <pin num="33" name="IO40" type="bidirectional"/>
+        <pin num="34" name="IO41" type="bidirectional"/>
+        <pin num="35" name="IO42" type="bidirectional"/>
+        <pin num="36" name="RXD0" type="bidirectional"/>
+        <pin num="37" name="TXD0" type="bidirectional"/>
+        <pin num="38" name="IO2" type="bidirectional"/>
+        <pin num="39" name="IO1" type="bidirectional"/>
+        <pin num="40" name="GND" type="passive"/>
+        <pin num="41" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Szafka" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Inductor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Szafka" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Szafka" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Szafka" part="STM32G030C8Tx">
+      <description>STMicroelectronics Arm Cortex-M0+ MCU, 64KB flash, 8KB RAM, 64 MHz, 2.0-3.6V, 43 GPIO, LQFP48</description>
+      <docs>https://www.st.com/resource/en/datasheet/stm32g030c8.pdf</docs>
+      <footprints>
+        <fp>LQFP*7x7mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32G030C8Tx</field>
+        <field name="Footprint">Package_QFP:LQFP-48_7x7mm_P0.5mm</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/stm32g030c8.pdf</field>
+        <field name="Description">STMicroelectronics Arm Cortex-M0+ MCU, 64KB flash, 8KB RAM, 64 MHz, 2.0-3.6V, 43 GPIO, LQFP48</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PC13" type="bidirectional"/>
+        <pin num="2" name="PC14" type="bidirectional"/>
+        <pin num="3" name="PC15" type="bidirectional"/>
+        <pin num="4" name="VBAT" type="power_in"/>
+        <pin num="5" name="VREF+" type="input"/>
+        <pin num="6" name="VDD" type="power_in"/>
+        <pin num="7" name="VSS" type="power_in"/>
+        <pin num="8" name="PF0" type="bidirectional"/>
+        <pin num="9" name="PF1" type="bidirectional"/>
+        <pin num="10" name="NRST" type="input"/>
+        <pin num="11" name="PA0" type="bidirectional"/>
+        <pin num="12" name="PA1" type="bidirectional"/>
+        <pin num="13" name="PA2" type="bidirectional"/>
+        <pin num="14" name="PA3" type="bidirectional"/>
+        <pin num="15" name="PA4" type="bidirectional"/>
+        <pin num="16" name="PA5" type="bidirectional"/>
+        <pin num="17" name="PA6" type="bidirectional"/>
+        <pin num="18" name="PA7" type="bidirectional"/>
+        <pin num="19" name="PB0" type="bidirectional"/>
+        <pin num="20" name="PB1" type="bidirectional"/>
+        <pin num="21" name="PB2" type="bidirectional"/>
+        <pin num="22" name="PB10" type="bidirectional"/>
+        <pin num="23" name="PB11" type="bidirectional"/>
+        <pin num="24" name="PB12" type="bidirectional"/>
+        <pin num="25" name="PB13" type="bidirectional"/>
+        <pin num="26" name="PB14" type="bidirectional"/>
+        <pin num="27" name="PB15" type="bidirectional"/>
+        <pin num="28" name="PA8" type="bidirectional"/>
+        <pin num="29" name="NC/PA9" type="no_connect"/>
+        <pin num="30" name="PC6" type="bidirectional"/>
+        <pin num="31" name="PC7" type="bidirectional"/>
+        <pin num="32" name="NC/PA10" type="no_connect"/>
+        <pin num="33" name="PA9/PA11" type="bidirectional"/>
+        <pin num="34" name="PA10/PA12" type="bidirectional"/>
+        <pin num="35" name="PA13" type="bidirectional"/>
+        <pin num="36" name="PA14" type="bidirectional"/>
+        <pin num="37" name="PA15" type="bidirectional"/>
+        <pin num="38" name="PD0" type="bidirectional"/>
+        <pin num="39" name="PD1" type="bidirectional"/>
+        <pin num="40" name="PD2" type="bidirectional"/>
+        <pin num="41" name="PD3" type="bidirectional"/>
+        <pin num="42" name="PB3" type="bidirectional"/>
+        <pin num="43" name="PB4" type="bidirectional"/>
+        <pin num="44" name="PB5" type="bidirectional"/>
+        <pin num="45" name="PB6" type="bidirectional"/>
+        <pin num="46" name="PB7" type="bidirectional"/>
+        <pin num="47" name="PB8" type="bidirectional"/>
+        <pin num="48" name="PB9" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Szafka" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Szafka" part="USBLC6-2SC6">
+      <description>Very low capacitance ESD protection diode, 2 data-line, SOT-23-6</description>
+      <docs>https://www.st.com/resource/en/datasheet/usblc6-2.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">USBLC6-2SC6</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/usblc6-2.pdf</field>
+        <field name="Description">Very low capacitance ESD protection diode, 2 data-line, SOT-23-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I/O1" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="I/O2" type="passive"/>
+        <pin num="4" name="I/O2" type="passive"/>
+        <pin num="5" name="VBUS" type="passive"/>
+        <pin num="6" name="I/O1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Szafka" part="USB_C_Receptacle_USB2.0_16P">
+      <description>USB 2.0-only 16P Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0_16P</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+        <field name="Description">USB 2.0-only 16P Type-C Receptacle connector</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D+" type="bidirectional"/>
+        <pin num="B7" name="D-" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Szafka">
+      <uri>/workspace/inznierka/Szafka.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3" class="Default">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J13" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="VBAT" pintype="power_in"/>
+      <node ref="U1" pin="5" pinfunction="VREF+" pintype="input"/>
+      <node ref="U1" pin="6" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="3V3" pintype="power_in"/>
+      <node ref="U3" pin="14" pinfunction="PMODE" pintype="input"/>
+      <node ref="U4" pin="14" pinfunction="PMODE" pintype="input"/>
+      <node ref="U6" pin="1" pinfunction="FB" pintype="input"/>
+      <node ref="U8" pin="5" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="5V_BUCK" class="Default">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="3" name="5V_OR" class="Default">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="EN" pintype="input"/>
+      <node ref="U6" pin="3" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="4" name="BUCK3_BST" class="Default">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="U6" pin="6" pinfunction="BST" pintype="passive"/>
+    </net>
+    <net code="5" name="BUCK3_SW" class="Default">
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U6" pin="5" pinfunction="SW" pintype="output"/>
+    </net>
+    <net code="6" name="BUCK5_BST" class="Default">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="BST" pintype="passive"/>
+    </net>
+    <net code="7" name="BUCK5_SW" class="Default">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="SW" pintype="output"/>
+    </net>
+    <net code="8" name="ESP_BOOT" class="Default">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="27" pinfunction="IO0" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="ESP_EN" class="Default">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="10" name="ESP_TX_STM_RX" class="Default">
+      <node ref="U1" pin="34" pinfunction="PA10/PA12" pintype="bidirectional"/>
+      <node ref="U2" pin="10" pinfunction="IO17" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="J1" pin="A1" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J12" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="LED1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="LED2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="40" pinfunction="GND" pintype="passive"/>
+      <node ref="U2" pin="41" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="13" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="7" pinfunction="PGND" pintype="power_in"/>
+      <node ref="U3" pin="EP" pinfunction="EP" pintype="power_in"/>
+      <node ref="U4" pin="13" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="7" pinfunction="PGND" pintype="power_in"/>
+      <node ref="U4" pin="EP" pinfunction="EP" pintype="power_in"/>
+      <node ref="U5" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="U8" pin="3" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="12" name="I2C_SCL" class="Default">
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U1" pin="45" pinfunction="PB6" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="I2C_SDA" class="Default">
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J7" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U1" pin="46" pinfunction="PB7" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="I2S_BCLK" class="Default">
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="IO4" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="I2S_DATA" class="Default">
+      <node ref="J8" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="IO6" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="I2S_WS" class="Default">
+      <node ref="J8" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="IO5" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="LED_POWER_A" class="Default">
+      <node ref="LED1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="LED_STATUS_A" class="Default">
+      <node ref="LED2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="LIM_1_CLOSED_NC" class="Default">
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="PB11" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="LIM_1_OPEN_NC" class="Default">
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="PB10" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="LIM_2_CLOSED_NC" class="Default">
+      <node ref="J12" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="PB13" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="LIM_2_OPEN_NC" class="Default">
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="PB12" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="M1_CPH" class="Default">
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="U3" pin="11" pinfunction="CPH" pintype="passive"/>
+    </net>
+    <net code="24" name="M1_CPL" class="Default">
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="U3" pin="12" pinfunction="CPL" pintype="passive"/>
+    </net>
+    <net code="25" name="M1_CURRENT_ADC" class="Default">
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="PA0" pintype="bidirectional"/>
+      <node ref="U3" pin="4" pinfunction="IPROPI" pintype="output"/>
+    </net>
+    <net code="26" name="M1_IN1" class="Default">
+      <node ref="U1" pin="17" pinfunction="PA6" pintype="bidirectional"/>
+      <node ref="U3" pin="15" pinfunction="EN/IN1" pintype="input"/>
+    </net>
+    <net code="27" name="M1_IN2" class="Default">
+      <node ref="U1" pin="18" pinfunction="PA7" pintype="bidirectional"/>
+      <node ref="U3" pin="16" pinfunction="PH/IN2" pintype="input"/>
+    </net>
+    <net code="28" name="M1_VCP" class="Default">
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="U3" pin="10" pinfunction="VCP" pintype="passive"/>
+    </net>
+    <net code="29" name="M1_VREF" class="Default">
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="VREF" pintype="input"/>
+    </net>
+    <net code="30" name="M1_nFAULT" class="Default">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="42" pinfunction="PB3" pintype="bidirectional"/>
+      <node ref="U3" pin="2" pinfunction="~{FAULT}" pintype="open_collector"/>
+    </net>
+    <net code="31" name="M2_CPH" class="Default">
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="U4" pin="11" pinfunction="CPH" pintype="passive"/>
+    </net>
+    <net code="32" name="M2_CPL" class="Default">
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="U4" pin="12" pinfunction="CPL" pintype="passive"/>
+    </net>
+    <net code="33" name="M2_CURRENT_ADC" class="Default">
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="PA1" pintype="bidirectional"/>
+      <node ref="U4" pin="4" pinfunction="IPROPI" pintype="output"/>
+    </net>
+    <net code="34" name="M2_IN1" class="Default">
+      <node ref="U1" pin="19" pinfunction="PB0" pintype="bidirectional"/>
+      <node ref="U4" pin="15" pinfunction="EN/IN1" pintype="input"/>
+    </net>
+    <net code="35" name="M2_IN2" class="Default">
+      <node ref="U1" pin="20" pinfunction="PB1" pintype="bidirectional"/>
+      <node ref="U4" pin="16" pinfunction="PH/IN2" pintype="input"/>
+    </net>
+    <net code="36" name="M2_VCP" class="Default">
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="U4" pin="10" pinfunction="VCP" pintype="passive"/>
+    </net>
+    <net code="37" name="M2_VREF" class="Default">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="VREF" pintype="input"/>
+    </net>
+    <net code="38" name="M2_nFAULT" class="Default">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="43" pinfunction="PB4" pintype="bidirectional"/>
+      <node ref="U4" pin="2" pinfunction="~{FAULT}" pintype="open_collector"/>
+    </net>
+    <net code="39" name="MCU_STATUS_LED" class="Default">
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="PB15" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="MOTOR_1_A" class="Default">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="OUT1" pintype="output"/>
+    </net>
+    <net code="41" name="MOTOR_1_B" class="Default">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="OUT2" pintype="output"/>
+    </net>
+    <net code="42" name="MOTOR_2_A" class="Default">
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="OUT1" pintype="output"/>
+    </net>
+    <net code="43" name="MOTOR_2_B" class="Default">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U4" pin="8" pinfunction="OUT2" pintype="output"/>
+    </net>
+    <net code="44" name="MOTOR_DRV_ENABLE" class="Default">
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="~{SLEEP}" pintype="input"/>
+      <node ref="U4" pin="1" pinfunction="~{SLEEP}" pintype="input"/>
+      <node ref="U8" pin="4" pintype="output"/>
+    </net>
+    <net code="45" name="MOTOR_MCU_ENABLE" class="Default">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="28" pinfunction="PA8" pintype="bidirectional"/>
+      <node ref="U8" pin="1" pintype="input"/>
+    </net>
+    <net code="46" name="SAFETY_LINK_1" class="Default">
+      <node ref="J13" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J14" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="47" name="SAFETY_LINK_2" class="Default">
+      <node ref="J14" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J15" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="48" name="SAFETY_LOOP_OK" class="Default">
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="J15" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="PB14" pintype="bidirectional"/>
+      <node ref="U8" pin="2" pintype="input"/>
+    </net>
+    <net code="49" name="STM_NRST" class="Default">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="J2" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="NRST" pintype="input"/>
+    </net>
+    <net code="50" name="STM_TX_ESP_RX" class="Default">
+      <node ref="U1" pin="33" pinfunction="PA9/PA11" pintype="bidirectional"/>
+      <node ref="U2" pin="11" pinfunction="IO18" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="SWCLK" class="Default">
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U1" pin="36" pinfunction="PA14" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="SWDIO" class="Default">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="35" pinfunction="PA13" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="TOF1_XSHUT" class="Default">
+      <node ref="J6" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U1" pin="47" pinfunction="PB8" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="TOF2_XSHUT" class="Default">
+      <node ref="J7" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U1" pin="48" pinfunction="PB9" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="USB_CC1" class="Default">
+      <node ref="J1" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="56" name="USB_CC2" class="Default">
+      <node ref="J1" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="57" name="USB_D_MINUS_CONN" class="Default">
+      <node ref="J1" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J1" pin="B7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="U7" pin="1" pinfunction="I/O1" pintype="passive"/>
+      <node ref="U7" pin="6" pinfunction="I/O1" pintype="passive"/>
+    </net>
+    <net code="58" name="USB_D_MINUS_MCU" class="Default">
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="USB_D-" pintype="bidirectional"/>
+    </net>
+    <net code="59" name="USB_D_PLUS_CONN" class="Default">
+      <node ref="J1" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J1" pin="B6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="U7" pin="3" pinfunction="I/O2" pintype="passive"/>
+      <node ref="U7" pin="4" pinfunction="I/O2" pintype="passive"/>
+    </net>
+    <net code="60" name="USB_D_PLUS_MCU" class="Default">
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="USB_D+" pintype="bidirectional"/>
+    </net>
+    <net code="61" name="USB_VBUS" class="Default">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="B9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="U7" pin="5" pinfunction="VBUS" pintype="passive"/>
+    </net>
+    <net code="62" name="VIN_12V_EXTERNAL" class="Default">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="63" name="VM_MOTORS" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="U3" pin="9" pinfunction="VM" pintype="power_in"/>
+      <node ref="U4" pin="9" pinfunction="VM" pintype="power_in"/>
+      <node ref="U5" pin="2" pinfunction="EN" pintype="input"/>
+      <node ref="U5" pin="3" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="64" name="unconnected-(J1-SBU1-PadA8)" class="Default">
+      <node ref="J1" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(J1-SBU2-PadB8)" class="Default">
+      <node ref="J1" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(J2-Pin_1-Pad1)" class="Default">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(J2-Pin_2-Pad2)" class="Default">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(J2-Pin_8-Pad8)" class="Default">
+      <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(J2-Pin_9-Pad9)" class="Default">
+      <node ref="J2" pin="9" pinfunction="Pin_9" pintype="passive+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(J2-Pin_10-Pad10)" class="Default">
+      <node ref="J2" pin="10" pinfunction="Pin_10" pintype="passive+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(J2-Pin_13-Pad13)" class="Default">
+      <node ref="J2" pin="13" pinfunction="Pin_13" pintype="passive+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(J2-Pin_14-Pad14)" class="Default">
+      <node ref="J2" pin="14" pinfunction="Pin_14" pintype="passive+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(U1-NC/PA9-Pad29)" class="Default">
+      <node ref="U1" pin="29" pinfunction="NC/PA9" pintype="no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(U1-NC/PA10-Pad32)" class="Default">
+      <node ref="U1" pin="32" pinfunction="NC/PA10" pintype="no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U1-PA2-Pad13)" class="Default">
+      <node ref="U1" pin="13" pinfunction="PA2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(U1-PA3-Pad14)" class="Default">
+      <node ref="U1" pin="14" pinfunction="PA3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(U1-PA4-Pad15)" class="Default">
+      <node ref="U1" pin="15" pinfunction="PA4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U1-PA5-Pad16)" class="Default">
+      <node ref="U1" pin="16" pinfunction="PA5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U1-PA15-Pad37)" class="Default">
+      <node ref="U1" pin="37" pinfunction="PA15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U1-PB2-Pad21)" class="Default">
+      <node ref="U1" pin="21" pinfunction="PB2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U1-PB5-Pad44)" class="Default">
+      <node ref="U1" pin="44" pinfunction="PB5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U1-PC6-Pad30)" class="Default">
+      <node ref="U1" pin="30" pinfunction="PC6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(U1-PC7-Pad31)" class="Default">
+      <node ref="U1" pin="31" pinfunction="PC7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(U1-PC13-Pad1)" class="Default">
+      <node ref="U1" pin="1" pinfunction="PC13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(U1-PC14-Pad2)" class="Default">
+      <node ref="U1" pin="2" pinfunction="PC14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U1-PC15-Pad3)" class="Default">
+      <node ref="U1" pin="3" pinfunction="PC15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(U1-PD0-Pad38)" class="Default">
+      <node ref="U1" pin="38" pinfunction="PD0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(U1-PD1-Pad39)" class="Default">
+      <node ref="U1" pin="39" pinfunction="PD1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(U1-PD2-Pad40)" class="Default">
+      <node ref="U1" pin="40" pinfunction="PD2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(U1-PD3-Pad41)" class="Default">
+      <node ref="U1" pin="41" pinfunction="PD3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(U1-PF0-Pad8)" class="Default">
+      <node ref="U1" pin="8" pinfunction="PF0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(U1-PF1-Pad9)" class="Default">
+      <node ref="U1" pin="9" pinfunction="PF1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(U2-IO1-Pad39)" class="Default">
+      <node ref="U2" pin="39" pinfunction="IO1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(U2-IO2-Pad38)" class="Default">
+      <node ref="U2" pin="38" pinfunction="IO2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(U2-IO3-Pad15)" class="Default">
+      <node ref="U2" pin="15" pinfunction="IO3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(U2-IO7-Pad7)" class="Default">
+      <node ref="U2" pin="7" pinfunction="IO7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(U2-IO8-Pad12)" class="Default">
+      <node ref="U2" pin="12" pinfunction="IO8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(U2-IO9-Pad17)" class="Default">
+      <node ref="U2" pin="17" pinfunction="IO9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(U2-IO10-Pad18)" class="Default">
+      <node ref="U2" pin="18" pinfunction="IO10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(U2-IO11-Pad19)" class="Default">
+      <node ref="U2" pin="19" pinfunction="IO11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(U2-IO12-Pad20)" class="Default">
+      <node ref="U2" pin="20" pinfunction="IO12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(U2-IO13-Pad21)" class="Default">
+      <node ref="U2" pin="21" pinfunction="IO13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(U2-IO14-Pad22)" class="Default">
+      <node ref="U2" pin="22" pinfunction="IO14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(U2-IO15-Pad8)" class="Default">
+      <node ref="U2" pin="8" pinfunction="IO15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="105" name="unconnected-(U2-IO16-Pad9)" class="Default">
+      <node ref="U2" pin="9" pinfunction="IO16" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="106" name="unconnected-(U2-IO21-Pad23)" class="Default">
+      <node ref="U2" pin="23" pinfunction="IO21" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="107" name="unconnected-(U2-IO35-Pad28)" class="Default">
+      <node ref="U2" pin="28" pinfunction="IO35" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="108" name="unconnected-(U2-IO36-Pad29)" class="Default">
+      <node ref="U2" pin="29" pinfunction="IO36" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="109" name="unconnected-(U2-IO37-Pad30)" class="Default">
+      <node ref="U2" pin="30" pinfunction="IO37" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="110" name="unconnected-(U2-IO38-Pad31)" class="Default">
+      <node ref="U2" pin="31" pinfunction="IO38" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="111" name="unconnected-(U2-IO39-Pad32)" class="Default">
+      <node ref="U2" pin="32" pinfunction="IO39" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="112" name="unconnected-(U2-IO40-Pad33)" class="Default">
+      <node ref="U2" pin="33" pinfunction="IO40" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="113" name="unconnected-(U2-IO41-Pad34)" class="Default">
+      <node ref="U2" pin="34" pinfunction="IO41" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="114" name="unconnected-(U2-IO42-Pad35)" class="Default">
+      <node ref="U2" pin="35" pinfunction="IO42" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="115" name="unconnected-(U2-IO45-Pad26)" class="Default">
+      <node ref="U2" pin="26" pinfunction="IO45" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="116" name="unconnected-(U2-IO46-Pad16)" class="Default">
+      <node ref="U2" pin="16" pinfunction="IO46" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="117" name="unconnected-(U2-IO47-Pad24)" class="Default">
+      <node ref="U2" pin="24" pinfunction="IO47" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="118" name="unconnected-(U2-IO48-Pad25)" class="Default">
+      <node ref="U2" pin="25" pinfunction="IO48" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="119" name="unconnected-(U2-RXD0-Pad36)" class="Default">
+      <node ref="U2" pin="36" pinfunction="RXD0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="120" name="unconnected-(U2-TXD0-Pad37)" class="Default">
+      <node ref="U2" pin="37" pinfunction="TXD0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="121" name="unconnected-(U3-IMODE-Pad5)" class="Default">
+      <node ref="U3" pin="5" pinfunction="IMODE" pintype="input+no_connect"/>
+    </net>
+    <net code="122" name="unconnected-(U4-IMODE-Pad5)" class="Default">
+      <node ref="U4" pin="5" pinfunction="IMODE" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>

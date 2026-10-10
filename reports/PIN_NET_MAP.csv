@@ -1,0 +1,351 @@
+﻿Sheet,Reference,Pin,Pin_Name,Net,Provenance
+Power_12V_5V_3V3,J3,1,Pin_1,VIN_12V_EXTERNAL,KiCad 9.0.2 Connector_Generic:Conn_01x02; manufacturer recheck pending
+Power_12V_5V_3V3,J3,2,Pin_2,GND,KiCad 9.0.2 Connector_Generic:Conn_01x02; manufacturer recheck pending
+Power_12V_5V_3V3,D1,1,K,VM_MOTORS,KiCad 9.0.2 Device:D_Schottky; manufacturer recheck pending
+Power_12V_5V_3V3,D1,2,A,VIN_12V_EXTERNAL,KiCad 9.0.2 Device:D_Schottky; manufacturer recheck pending
+Power_12V_5V_3V3,D4,1,A1,GND,KiCad 9.0.2 Device:D_TVS; manufacturer recheck pending
+Power_12V_5V_3V3,D4,2,A2,VM_MOTORS,KiCad 9.0.2 Device:D_TVS; manufacturer recheck pending
+Power_12V_5V_3V3,C1,1,~,VM_MOTORS,KiCad 9.0.2 Device:C_Polarized; manufacturer recheck pending
+Power_12V_5V_3V3,C1,2,~,GND,KiCad 9.0.2 Device:C_Polarized; manufacturer recheck pending
+Power_12V_5V_3V3,U5,3,IN,VM_MOTORS,KiCad 9.0.2 Regulator_Switching:AP63205WU; manufacturer recheck pending
+Power_12V_5V_3V3,U5,2,EN,VM_MOTORS,KiCad 9.0.2 Regulator_Switching:AP63205WU; manufacturer recheck pending
+Power_12V_5V_3V3,U5,4,GND,GND,KiCad 9.0.2 Regulator_Switching:AP63205WU; manufacturer recheck pending
+Power_12V_5V_3V3,U5,5,SW,BUCK5_SW,KiCad 9.0.2 Regulator_Switching:AP63205WU; manufacturer recheck pending
+Power_12V_5V_3V3,U5,6,BST,BUCK5_BST,KiCad 9.0.2 Regulator_Switching:AP63205WU; manufacturer recheck pending
+Power_12V_5V_3V3,U5,1,FB,5V_BUCK,KiCad 9.0.2 Regulator_Switching:AP63205WU; manufacturer recheck pending
+Power_12V_5V_3V3,L1,1,1,BUCK5_SW,KiCad 9.0.2 Device:L; manufacturer recheck pending
+Power_12V_5V_3V3,L1,2,2,5V_BUCK,KiCad 9.0.2 Device:L; manufacturer recheck pending
+Power_12V_5V_3V3,C2,1,~,VM_MOTORS,KiCad 9.0.2 Device:C; manufacturer recheck pending
+Power_12V_5V_3V3,C2,2,~,GND,KiCad 9.0.2 Device:C; manufacturer recheck pending
+Power_12V_5V_3V3,C3,1,~,BUCK5_BST,KiCad 9.0.2 Device:C; manufacturer recheck pending
+Power_12V_5V_3V3,C3,2,~,BUCK5_SW,KiCad 9.0.2 Device:C; manufacturer recheck pending
+Power_12V_5V_3V3,C4,1,~,5V_BUCK,KiCad 9.0.2 Device:C; manufacturer recheck pending
+Power_12V_5V_3V3,C4,2,~,GND,KiCad 9.0.2 Device:C; manufacturer recheck pending
+Power_12V_5V_3V3,C5,1,~,5V_BUCK,KiCad 9.0.2 Device:C; manufacturer recheck pending
+Power_12V_5V_3V3,C5,2,~,GND,KiCad 9.0.2 Device:C; manufacturer recheck pending
+Power_12V_5V_3V3,U6,3,IN,5V_OR,KiCad 9.0.2 Regulator_Switching:AP63203WU; manufacturer recheck pending
+Power_12V_5V_3V3,U6,2,EN,5V_OR,KiCad 9.0.2 Regulator_Switching:AP63203WU; manufacturer recheck pending
+Power_12V_5V_3V3,U6,4,GND,GND,KiCad 9.0.2 Regulator_Switching:AP63203WU; manufacturer recheck pending
+Power_12V_5V_3V3,U6,5,SW,BUCK3_SW,KiCad 9.0.2 Regulator_Switching:AP63203WU; manufacturer recheck pending
+Power_12V_5V_3V3,U6,6,BST,BUCK3_BST,KiCad 9.0.2 Regulator_Switching:AP63203WU; manufacturer recheck pending
+Power_12V_5V_3V3,U6,1,FB,+3V3,KiCad 9.0.2 Regulator_Switching:AP63203WU; manufacturer recheck pending
+Power_12V_5V_3V3,L2,1,1,BUCK3_SW,KiCad 9.0.2 Device:L; manufacturer recheck pending
+Power_12V_5V_3V3,L2,2,2,+3V3,KiCad 9.0.2 Device:L; manufacturer recheck pending
+Power_12V_5V_3V3,C6,1,~,5V_OR,KiCad 9.0.2 Device:C; manufacturer recheck pending
+Power_12V_5V_3V3,C6,2,~,GND,KiCad 9.0.2 Device:C; manufacturer recheck pending
+Power_12V_5V_3V3,C7,1,~,BUCK3_BST,KiCad 9.0.2 Device:C; manufacturer recheck pending
+Power_12V_5V_3V3,C7,2,~,BUCK3_SW,KiCad 9.0.2 Device:C; manufacturer recheck pending
+Power_12V_5V_3V3,C8,1,~,+3V3,KiCad 9.0.2 Device:C; manufacturer recheck pending
+Power_12V_5V_3V3,C8,2,~,GND,KiCad 9.0.2 Device:C; manufacturer recheck pending
+Power_12V_5V_3V3,C9,1,~,+3V3,KiCad 9.0.2 Device:C; manufacturer recheck pending
+Power_12V_5V_3V3,C9,2,~,GND,KiCad 9.0.2 Device:C; manufacturer recheck pending
+Power_12V_5V_3V3,D2,1,K,5V_OR,KiCad 9.0.2 Device:D_Schottky; manufacturer recheck pending
+Power_12V_5V_3V3,D2,2,A,5V_BUCK,KiCad 9.0.2 Device:D_Schottky; manufacturer recheck pending
+Power_12V_5V_3V3,D3,1,K,5V_OR,KiCad 9.0.2 Device:D_Schottky; manufacturer recheck pending
+Power_12V_5V_3V3,D3,2,A,USB_VBUS,KiCad 9.0.2 Device:D_Schottky; manufacturer recheck pending
+Power_12V_5V_3V3,#FLG01,1,~,VIN_12V_EXTERNAL,KiCad 9.0.2 power:PWR_FLAG; manufacturer recheck pending
+Power_12V_5V_3V3,#FLG02,1,~,VM_MOTORS,KiCad 9.0.2 power:PWR_FLAG; manufacturer recheck pending
+Power_12V_5V_3V3,#FLG03,1,~,USB_VBUS,KiCad 9.0.2 power:PWR_FLAG; manufacturer recheck pending
+Power_12V_5V_3V3,#FLG04,1,~,5V_BUCK,KiCad 9.0.2 power:PWR_FLAG; manufacturer recheck pending
+Power_12V_5V_3V3,#FLG05,1,~,5V_OR,KiCad 9.0.2 power:PWR_FLAG; manufacturer recheck pending
+Power_12V_5V_3V3,#FLG06,1,~,+3V3,KiCad 9.0.2 power:PWR_FLAG; manufacturer recheck pending
+Power_12V_5V_3V3,#FLG07,1,~,GND,KiCad 9.0.2 power:PWR_FLAG; manufacturer recheck pending
+STM32_Control_SWD,U1,10,NRST,STM_NRST,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,5,VREF+,+3V3,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,8,PF0,NC,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,9,PF1,NC,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,38,PD0,NC,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,39,PD1,NC,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,40,PD2,NC,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,41,PD3,NC,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,30,PC6,NC,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,31,PC7,NC,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,1,PC13,NC,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,2,PC14,NC,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,3,PC15,NC,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,32,NC/PA10,NC,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,29,NC/PA9,NC,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,4,VBAT,+3V3,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,7,VSS,GND,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,6,VDD,+3V3,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,11,PA0,M1_CURRENT_ADC,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,12,PA1,M2_CURRENT_ADC,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,13,PA2,NC,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,14,PA3,NC,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,15,PA4,NC,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,16,PA5,NC,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,17,PA6,M1_IN1,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,18,PA7,M1_IN2,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,28,PA8,MOTOR_MCU_ENABLE,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,33,PA9/PA11,STM_TX_ESP_RX,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,34,PA10/PA12,ESP_TX_STM_RX,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,35,PA13,SWDIO,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,36,PA14,SWCLK,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,37,PA15,NC,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,19,PB0,M2_IN1,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,20,PB1,M2_IN2,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,21,PB2,NC,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,42,PB3,M1_nFAULT,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,43,PB4,M2_nFAULT,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,44,PB5,NC,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,45,PB6,I2C_SCL,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,46,PB7,I2C_SDA,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,47,PB8,TOF1_XSHUT,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,48,PB9,TOF2_XSHUT,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,22,PB10,LIM_1_OPEN_NC,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,23,PB11,LIM_1_CLOSED_NC,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,24,PB12,LIM_2_OPEN_NC,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,25,PB13,LIM_2_CLOSED_NC,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,26,PB14,SAFETY_LOOP_OK,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,U1,27,PB15,MCU_STATUS_LED,KiCad 9.0.2 MCU_ST_STM32G0:STM32G030C8Tx; manufacturer recheck pending
+STM32_Control_SWD,J2,1,Pin_1,NC,KiCad 9.0.2 Connector_Generic:Conn_02x07_Odd_Even; manufacturer recheck pending
+STM32_Control_SWD,J2,3,Pin_3,+3V3,KiCad 9.0.2 Connector_Generic:Conn_02x07_Odd_Even; manufacturer recheck pending
+STM32_Control_SWD,J2,5,Pin_5,GND,KiCad 9.0.2 Connector_Generic:Conn_02x07_Odd_Even; manufacturer recheck pending
+STM32_Control_SWD,J2,7,Pin_7,GND,KiCad 9.0.2 Connector_Generic:Conn_02x07_Odd_Even; manufacturer recheck pending
+STM32_Control_SWD,J2,9,Pin_9,NC,KiCad 9.0.2 Connector_Generic:Conn_02x07_Odd_Even; manufacturer recheck pending
+STM32_Control_SWD,J2,11,Pin_11,GND,KiCad 9.0.2 Connector_Generic:Conn_02x07_Odd_Even; manufacturer recheck pending
+STM32_Control_SWD,J2,13,Pin_13,NC,KiCad 9.0.2 Connector_Generic:Conn_02x07_Odd_Even; manufacturer recheck pending
+STM32_Control_SWD,J2,2,Pin_2,NC,KiCad 9.0.2 Connector_Generic:Conn_02x07_Odd_Even; manufacturer recheck pending
+STM32_Control_SWD,J2,4,Pin_4,SWDIO,KiCad 9.0.2 Connector_Generic:Conn_02x07_Odd_Even; manufacturer recheck pending
+STM32_Control_SWD,J2,6,Pin_6,SWCLK,KiCad 9.0.2 Connector_Generic:Conn_02x07_Odd_Even; manufacturer recheck pending
+STM32_Control_SWD,J2,8,Pin_8,NC,KiCad 9.0.2 Connector_Generic:Conn_02x07_Odd_Even; manufacturer recheck pending
+STM32_Control_SWD,J2,10,Pin_10,NC,KiCad 9.0.2 Connector_Generic:Conn_02x07_Odd_Even; manufacturer recheck pending
+STM32_Control_SWD,J2,12,Pin_12,STM_NRST,KiCad 9.0.2 Connector_Generic:Conn_02x07_Odd_Even; manufacturer recheck pending
+STM32_Control_SWD,J2,14,Pin_14,NC,KiCad 9.0.2 Connector_Generic:Conn_02x07_Odd_Even; manufacturer recheck pending
+STM32_Control_SWD,C11,1,~,+3V3,KiCad 9.0.2 Device:C; manufacturer recheck pending
+STM32_Control_SWD,C11,2,~,GND,KiCad 9.0.2 Device:C; manufacturer recheck pending
+STM32_Control_SWD,C12,1,~,+3V3,KiCad 9.0.2 Device:C; manufacturer recheck pending
+STM32_Control_SWD,C12,2,~,GND,KiCad 9.0.2 Device:C; manufacturer recheck pending
+STM32_Control_SWD,C13,1,~,+3V3,KiCad 9.0.2 Device:C; manufacturer recheck pending
+STM32_Control_SWD,C13,2,~,GND,KiCad 9.0.2 Device:C; manufacturer recheck pending
+STM32_Control_SWD,R9,1,~,+3V3,KiCad 9.0.2 Device:R; manufacturer recheck pending
+STM32_Control_SWD,R9,2,~,STM_NRST,KiCad 9.0.2 Device:R; manufacturer recheck pending
+STM32_Control_SWD,C16,1,~,STM_NRST,KiCad 9.0.2 Device:C; manufacturer recheck pending
+STM32_Control_SWD,C16,2,~,GND,KiCad 9.0.2 Device:C; manufacturer recheck pending
+STM32_Control_SWD,R22,1,~,+3V3,KiCad 9.0.2 Device:R; manufacturer recheck pending
+STM32_Control_SWD,R22,2,~,LED_POWER_A,KiCad 9.0.2 Device:R; manufacturer recheck pending
+STM32_Control_SWD,LED1,1,K,GND,KiCad 9.0.2 Device:LED; manufacturer recheck pending
+STM32_Control_SWD,LED1,2,A,LED_POWER_A,KiCad 9.0.2 Device:LED; manufacturer recheck pending
+STM32_Control_SWD,R23,1,~,MCU_STATUS_LED,KiCad 9.0.2 Device:R; manufacturer recheck pending
+STM32_Control_SWD,R23,2,~,LED_STATUS_A,KiCad 9.0.2 Device:R; manufacturer recheck pending
+STM32_Control_SWD,LED2,1,K,GND,KiCad 9.0.2 Device:LED; manufacturer recheck pending
+STM32_Control_SWD,LED2,2,A,LED_STATUS_A,KiCad 9.0.2 Device:LED; manufacturer recheck pending
+ESP32_USB_Audio,U2,3,EN,ESP_EN,KiCad 9.0.2 RF_Module:ESP32-S3-WROOM-1; manufacturer recheck pending
+ESP32_USB_Audio,U2,27,IO0,ESP_BOOT,KiCad 9.0.2 RF_Module:ESP32-S3-WROOM-1; manufacturer recheck pending
+ESP32_USB_Audio,U2,39,IO1,NC,KiCad 9.0.2 RF_Module:ESP32-S3-WROOM-1; manufacturer recheck pending
+ESP32_USB_Audio,U2,38,IO2,NC,KiCad 9.0.2 RF_Module:ESP32-S3-WROOM-1; manufacturer recheck pending
+ESP32_USB_Audio,U2,15,IO3,NC,KiCad 9.0.2 RF_Module:ESP32-S3-WROOM-1; manufacturer recheck pending
+ESP32_USB_Audio,U2,4,IO4,I2S_BCLK,KiCad 9.0.2 RF_Module:ESP32-S3-WROOM-1; manufacturer recheck pending
+ESP32_USB_Audio,U2,5,IO5,I2S_WS,KiCad 9.0.2 RF_Module:ESP32-S3-WROOM-1; manufacturer recheck pending
+ESP32_USB_Audio,U2,6,IO6,I2S_DATA,KiCad 9.0.2 RF_Module:ESP32-S3-WROOM-1; manufacturer recheck pending
+ESP32_USB_Audio,U2,7,IO7,NC,KiCad 9.0.2 RF_Module:ESP32-S3-WROOM-1; manufacturer recheck pending
+ESP32_USB_Audio,U2,12,IO8,NC,KiCad 9.0.2 RF_Module:ESP32-S3-WROOM-1; manufacturer recheck pending
+ESP32_USB_Audio,U2,17,IO9,NC,KiCad 9.0.2 RF_Module:ESP32-S3-WROOM-1; manufacturer recheck pending
+ESP32_USB_Audio,U2,18,IO10,NC,KiCad 9.0.2 RF_Module:ESP32-S3-WROOM-1; manufacturer recheck pending
+ESP32_USB_Audio,U2,19,IO11,NC,KiCad 9.0.2 RF_Module:ESP32-S3-WROOM-1; manufacturer recheck pending
+ESP32_USB_Audio,U2,20,IO12,NC,KiCad 9.0.2 RF_Module:ESP32-S3-WROOM-1; manufacturer recheck pending
+ESP32_USB_Audio,U2,21,IO13,NC,KiCad 9.0.2 RF_Module:ESP32-S3-WROOM-1; manufacturer recheck pending
+ESP32_USB_Audio,U2,22,IO14,NC,KiCad 9.0.2 RF_Module:ESP32-S3-WROOM-1; manufacturer recheck pending
+ESP32_USB_Audio,U2,8,IO15,NC,KiCad 9.0.2 RF_Module:ESP32-S3-WROOM-1; manufacturer recheck pending
+ESP32_USB_Audio,U2,9,IO16,NC,KiCad 9.0.2 RF_Module:ESP32-S3-WROOM-1; manufacturer recheck pending
+ESP32_USB_Audio,U2,2,3V3,+3V3,KiCad 9.0.2 RF_Module:ESP32-S3-WROOM-1; manufacturer recheck pending
+ESP32_USB_Audio,U2,1,GND,GND,KiCad 9.0.2 RF_Module:ESP32-S3-WROOM-1; manufacturer recheck pending
+ESP32_USB_Audio,U2,40,GND,GND,KiCad 9.0.2 RF_Module:ESP32-S3-WROOM-1; manufacturer recheck pending
+ESP32_USB_Audio,U2,41,GND,GND,KiCad 9.0.2 RF_Module:ESP32-S3-WROOM-1; manufacturer recheck pending
+ESP32_USB_Audio,U2,37,TXD0,NC,KiCad 9.0.2 RF_Module:ESP32-S3-WROOM-1; manufacturer recheck pending
+ESP32_USB_Audio,U2,36,RXD0,NC,KiCad 9.0.2 RF_Module:ESP32-S3-WROOM-1; manufacturer recheck pending
+ESP32_USB_Audio,U2,10,IO17,ESP_TX_STM_RX,KiCad 9.0.2 RF_Module:ESP32-S3-WROOM-1; manufacturer recheck pending
+ESP32_USB_Audio,U2,11,IO18,STM_TX_ESP_RX,KiCad 9.0.2 RF_Module:ESP32-S3-WROOM-1; manufacturer recheck pending
+ESP32_USB_Audio,U2,13,USB_D-,USB_D_MINUS_MCU,KiCad 9.0.2 RF_Module:ESP32-S3-WROOM-1; manufacturer recheck pending
+ESP32_USB_Audio,U2,14,USB_D+,USB_D_PLUS_MCU,KiCad 9.0.2 RF_Module:ESP32-S3-WROOM-1; manufacturer recheck pending
+ESP32_USB_Audio,U2,23,IO21,NC,KiCad 9.0.2 RF_Module:ESP32-S3-WROOM-1; manufacturer recheck pending
+ESP32_USB_Audio,U2,28,IO35,NC,KiCad 9.0.2 RF_Module:ESP32-S3-WROOM-1; manufacturer recheck pending
+ESP32_USB_Audio,U2,29,IO36,NC,KiCad 9.0.2 RF_Module:ESP32-S3-WROOM-1; manufacturer recheck pending
+ESP32_USB_Audio,U2,30,IO37,NC,KiCad 9.0.2 RF_Module:ESP32-S3-WROOM-1; manufacturer recheck pending
+ESP32_USB_Audio,U2,31,IO38,NC,KiCad 9.0.2 RF_Module:ESP32-S3-WROOM-1; manufacturer recheck pending
+ESP32_USB_Audio,U2,32,IO39,NC,KiCad 9.0.2 RF_Module:ESP32-S3-WROOM-1; manufacturer recheck pending
+ESP32_USB_Audio,U2,33,IO40,NC,KiCad 9.0.2 RF_Module:ESP32-S3-WROOM-1; manufacturer recheck pending
+ESP32_USB_Audio,U2,34,IO41,NC,KiCad 9.0.2 RF_Module:ESP32-S3-WROOM-1; manufacturer recheck pending
+ESP32_USB_Audio,U2,35,IO42,NC,KiCad 9.0.2 RF_Module:ESP32-S3-WROOM-1; manufacturer recheck pending
+ESP32_USB_Audio,U2,26,IO45,NC,KiCad 9.0.2 RF_Module:ESP32-S3-WROOM-1; manufacturer recheck pending
+ESP32_USB_Audio,U2,16,IO46,NC,KiCad 9.0.2 RF_Module:ESP32-S3-WROOM-1; manufacturer recheck pending
+ESP32_USB_Audio,U2,24,IO47,NC,KiCad 9.0.2 RF_Module:ESP32-S3-WROOM-1; manufacturer recheck pending
+ESP32_USB_Audio,U2,25,IO48,NC,KiCad 9.0.2 RF_Module:ESP32-S3-WROOM-1; manufacturer recheck pending
+ESP32_USB_Audio,J1,S1,SHIELD,GND,KiCad 9.0.2 Connector:USB_C_Receptacle_USB2.0_16P; manufacturer recheck pending
+ESP32_USB_Audio,J1,A1,GND,GND,KiCad 9.0.2 Connector:USB_C_Receptacle_USB2.0_16P; manufacturer recheck pending
+ESP32_USB_Audio,J1,A12,GND,GND,KiCad 9.0.2 Connector:USB_C_Receptacle_USB2.0_16P; manufacturer recheck pending
+ESP32_USB_Audio,J1,B1,GND,GND,KiCad 9.0.2 Connector:USB_C_Receptacle_USB2.0_16P; manufacturer recheck pending
+ESP32_USB_Audio,J1,B12,GND,GND,KiCad 9.0.2 Connector:USB_C_Receptacle_USB2.0_16P; manufacturer recheck pending
+ESP32_USB_Audio,J1,A4,VBUS,USB_VBUS,KiCad 9.0.2 Connector:USB_C_Receptacle_USB2.0_16P; manufacturer recheck pending
+ESP32_USB_Audio,J1,A9,VBUS,USB_VBUS,KiCad 9.0.2 Connector:USB_C_Receptacle_USB2.0_16P; manufacturer recheck pending
+ESP32_USB_Audio,J1,B4,VBUS,USB_VBUS,KiCad 9.0.2 Connector:USB_C_Receptacle_USB2.0_16P; manufacturer recheck pending
+ESP32_USB_Audio,J1,B9,VBUS,USB_VBUS,KiCad 9.0.2 Connector:USB_C_Receptacle_USB2.0_16P; manufacturer recheck pending
+ESP32_USB_Audio,J1,A5,CC1,USB_CC1,KiCad 9.0.2 Connector:USB_C_Receptacle_USB2.0_16P; manufacturer recheck pending
+ESP32_USB_Audio,J1,B5,CC2,USB_CC2,KiCad 9.0.2 Connector:USB_C_Receptacle_USB2.0_16P; manufacturer recheck pending
+ESP32_USB_Audio,J1,A7,D-,USB_D_MINUS_CONN,KiCad 9.0.2 Connector:USB_C_Receptacle_USB2.0_16P; manufacturer recheck pending
+ESP32_USB_Audio,J1,B7,D-,USB_D_MINUS_CONN,KiCad 9.0.2 Connector:USB_C_Receptacle_USB2.0_16P; manufacturer recheck pending
+ESP32_USB_Audio,J1,A6,D+,USB_D_PLUS_CONN,KiCad 9.0.2 Connector:USB_C_Receptacle_USB2.0_16P; manufacturer recheck pending
+ESP32_USB_Audio,J1,B6,D+,USB_D_PLUS_CONN,KiCad 9.0.2 Connector:USB_C_Receptacle_USB2.0_16P; manufacturer recheck pending
+ESP32_USB_Audio,J1,A8,SBU1,NC,KiCad 9.0.2 Connector:USB_C_Receptacle_USB2.0_16P; manufacturer recheck pending
+ESP32_USB_Audio,J1,B8,SBU2,NC,KiCad 9.0.2 Connector:USB_C_Receptacle_USB2.0_16P; manufacturer recheck pending
+ESP32_USB_Audio,U7,1,I/O1,USB_D_MINUS_CONN,KiCad 9.0.2 Power_Protection:USBLC6-2SC6; manufacturer recheck pending
+ESP32_USB_Audio,U7,3,I/O2,USB_D_PLUS_CONN,KiCad 9.0.2 Power_Protection:USBLC6-2SC6; manufacturer recheck pending
+ESP32_USB_Audio,U7,5,VBUS,USB_VBUS,KiCad 9.0.2 Power_Protection:USBLC6-2SC6; manufacturer recheck pending
+ESP32_USB_Audio,U7,2,GND,GND,KiCad 9.0.2 Power_Protection:USBLC6-2SC6; manufacturer recheck pending
+ESP32_USB_Audio,U7,6,I/O1,USB_D_MINUS_CONN,KiCad 9.0.2 Power_Protection:USBLC6-2SC6; manufacturer recheck pending
+ESP32_USB_Audio,U7,4,I/O2,USB_D_PLUS_CONN,KiCad 9.0.2 Power_Protection:USBLC6-2SC6; manufacturer recheck pending
+ESP32_USB_Audio,R1,1,~,USB_CC1,KiCad 9.0.2 Device:R; manufacturer recheck pending
+ESP32_USB_Audio,R1,2,~,GND,KiCad 9.0.2 Device:R; manufacturer recheck pending
+ESP32_USB_Audio,R2,1,~,USB_CC2,KiCad 9.0.2 Device:R; manufacturer recheck pending
+ESP32_USB_Audio,R2,2,~,GND,KiCad 9.0.2 Device:R; manufacturer recheck pending
+ESP32_USB_Audio,R19,1,~,USB_D_MINUS_CONN,KiCad 9.0.2 Device:R; manufacturer recheck pending
+ESP32_USB_Audio,R19,2,~,USB_D_MINUS_MCU,KiCad 9.0.2 Device:R; manufacturer recheck pending
+ESP32_USB_Audio,R20,1,~,USB_D_PLUS_CONN,KiCad 9.0.2 Device:R; manufacturer recheck pending
+ESP32_USB_Audio,R20,2,~,USB_D_PLUS_MCU,KiCad 9.0.2 Device:R; manufacturer recheck pending
+ESP32_USB_Audio,R3,1,~,+3V3,KiCad 9.0.2 Device:R; manufacturer recheck pending
+ESP32_USB_Audio,R3,2,~,ESP_EN,KiCad 9.0.2 Device:R; manufacturer recheck pending
+ESP32_USB_Audio,R4,1,~,+3V3,KiCad 9.0.2 Device:R; manufacturer recheck pending
+ESP32_USB_Audio,R4,2,~,ESP_BOOT,KiCad 9.0.2 Device:R; manufacturer recheck pending
+ESP32_USB_Audio,SW1,1,1,ESP_BOOT,KiCad 9.0.2 Switch:SW_Push; manufacturer recheck pending
+ESP32_USB_Audio,SW1,2,2,GND,KiCad 9.0.2 Switch:SW_Push; manufacturer recheck pending
+ESP32_USB_Audio,SW2,1,1,ESP_EN,KiCad 9.0.2 Switch:SW_Push; manufacturer recheck pending
+ESP32_USB_Audio,SW2,2,2,GND,KiCad 9.0.2 Switch:SW_Push; manufacturer recheck pending
+ESP32_USB_Audio,C10,1,~,+3V3,KiCad 9.0.2 Device:C; manufacturer recheck pending
+ESP32_USB_Audio,C10,2,~,GND,KiCad 9.0.2 Device:C; manufacturer recheck pending
+ESP32_USB_Audio,C14,1,~,+3V3,KiCad 9.0.2 Device:C; manufacturer recheck pending
+ESP32_USB_Audio,C14,2,~,GND,KiCad 9.0.2 Device:C; manufacturer recheck pending
+ESP32_USB_Audio,C15,1,~,ESP_EN,KiCad 9.0.2 Device:C; manufacturer recheck pending
+ESP32_USB_Audio,C15,2,~,GND,KiCad 9.0.2 Device:C; manufacturer recheck pending
+ESP32_USB_Audio,J8,1,Pin_1,+3V3,KiCad 9.0.2 Connector_Generic:Conn_01x06; manufacturer recheck pending
+ESP32_USB_Audio,J8,2,Pin_2,GND,KiCad 9.0.2 Connector_Generic:Conn_01x06; manufacturer recheck pending
+ESP32_USB_Audio,J8,3,Pin_3,I2S_BCLK,KiCad 9.0.2 Connector_Generic:Conn_01x06; manufacturer recheck pending
+ESP32_USB_Audio,J8,4,Pin_4,I2S_WS,KiCad 9.0.2 Connector_Generic:Conn_01x06; manufacturer recheck pending
+ESP32_USB_Audio,J8,5,Pin_5,I2S_DATA,KiCad 9.0.2 Connector_Generic:Conn_01x06; manufacturer recheck pending
+ESP32_USB_Audio,J8,6,Pin_6,GND,KiCad 9.0.2 Connector_Generic:Conn_01x06; manufacturer recheck pending
+Motor_Drivers,U3,1,~{SLEEP},MOTOR_DRV_ENABLE,Uploaded Mapa sygnalow ONLY; NOT independently verified; EP is a placeholder pad identifier
+Motor_Drivers,U3,2,~{FAULT},M1_nFAULT,Uploaded Mapa sygnalow ONLY; NOT independently verified; EP is a placeholder pad identifier
+Motor_Drivers,U3,3,VREF,M1_VREF,Uploaded Mapa sygnalow ONLY; NOT independently verified; EP is a placeholder pad identifier
+Motor_Drivers,U3,4,IPROPI,M1_CURRENT_ADC,Uploaded Mapa sygnalow ONLY; NOT independently verified; EP is a placeholder pad identifier
+Motor_Drivers,U3,5,IMODE,NC,Uploaded Mapa sygnalow ONLY; NOT independently verified; EP is a placeholder pad identifier
+Motor_Drivers,U3,6,OUT1,MOTOR_1_A,Uploaded Mapa sygnalow ONLY; NOT independently verified; EP is a placeholder pad identifier
+Motor_Drivers,U3,7,PGND,GND,Uploaded Mapa sygnalow ONLY; NOT independently verified; EP is a placeholder pad identifier
+Motor_Drivers,U3,8,OUT2,MOTOR_1_B,Uploaded Mapa sygnalow ONLY; NOT independently verified; EP is a placeholder pad identifier
+Motor_Drivers,U3,9,VM,VM_MOTORS,Uploaded Mapa sygnalow ONLY; NOT independently verified; EP is a placeholder pad identifier
+Motor_Drivers,U3,10,VCP,M1_VCP,Uploaded Mapa sygnalow ONLY; NOT independently verified; EP is a placeholder pad identifier
+Motor_Drivers,U3,11,CPH,M1_CPH,Uploaded Mapa sygnalow ONLY; NOT independently verified; EP is a placeholder pad identifier
+Motor_Drivers,U3,12,CPL,M1_CPL,Uploaded Mapa sygnalow ONLY; NOT independently verified; EP is a placeholder pad identifier
+Motor_Drivers,U3,13,GND,GND,Uploaded Mapa sygnalow ONLY; NOT independently verified; EP is a placeholder pad identifier
+Motor_Drivers,U3,14,PMODE,+3V3,Uploaded Mapa sygnalow ONLY; NOT independently verified; EP is a placeholder pad identifier
+Motor_Drivers,U3,15,EN/IN1,M1_IN1,Uploaded Mapa sygnalow ONLY; NOT independently verified; EP is a placeholder pad identifier
+Motor_Drivers,U3,16,PH/IN2,M1_IN2,Uploaded Mapa sygnalow ONLY; NOT independently verified; EP is a placeholder pad identifier
+Motor_Drivers,U3,EP,EP,GND,Uploaded Mapa sygnalow ONLY; NOT independently verified; EP is a placeholder pad identifier
+Motor_Drivers,R5,1,~,+3V3,KiCad 9.0.2 Device:R; manufacturer recheck pending
+Motor_Drivers,R5,2,~,M1_nFAULT,KiCad 9.0.2 Device:R; manufacturer recheck pending
+Motor_Drivers,R12,1,~,M1_CURRENT_ADC,KiCad 9.0.2 Device:R; manufacturer recheck pending
+Motor_Drivers,R12,2,~,GND,KiCad 9.0.2 Device:R; manufacturer recheck pending
+Motor_Drivers,R16,1,~,+3V3,KiCad 9.0.2 Device:R; manufacturer recheck pending
+Motor_Drivers,R16,2,~,M1_VREF,KiCad 9.0.2 Device:R; manufacturer recheck pending
+Motor_Drivers,R14,1,~,M1_VREF,KiCad 9.0.2 Device:R; manufacturer recheck pending
+Motor_Drivers,R14,2,~,GND,KiCad 9.0.2 Device:R; manufacturer recheck pending
+Motor_Drivers,C17,1,~,VM_MOTORS,KiCad 9.0.2 Device:C; manufacturer recheck pending
+Motor_Drivers,C17,2,~,GND,KiCad 9.0.2 Device:C; manufacturer recheck pending
+Motor_Drivers,C21,1,~,M1_VCP,KiCad 9.0.2 Device:C; manufacturer recheck pending
+Motor_Drivers,C21,2,~,VM_MOTORS,KiCad 9.0.2 Device:C; manufacturer recheck pending
+Motor_Drivers,C23,1,~,M1_CPH,KiCad 9.0.2 Device:C; manufacturer recheck pending
+Motor_Drivers,C23,2,~,M1_CPL,KiCad 9.0.2 Device:C; manufacturer recheck pending
+Motor_Drivers,C26,1,~,M1_CURRENT_ADC,KiCad 9.0.2 Device:C; manufacturer recheck pending
+Motor_Drivers,C26,2,~,GND,KiCad 9.0.2 Device:C; manufacturer recheck pending
+Motor_Drivers,C19,1,~,VM_MOTORS,KiCad 9.0.2 Device:C_Polarized; manufacturer recheck pending
+Motor_Drivers,C19,2,~,GND,KiCad 9.0.2 Device:C_Polarized; manufacturer recheck pending
+Motor_Drivers,J4,1,Pin_1,MOTOR_1_A,KiCad 9.0.2 Connector_Generic:Conn_01x02; manufacturer recheck pending
+Motor_Drivers,J4,2,Pin_2,MOTOR_1_B,KiCad 9.0.2 Connector_Generic:Conn_01x02; manufacturer recheck pending
+Motor_Drivers,U4,1,~{SLEEP},MOTOR_DRV_ENABLE,Uploaded Mapa sygnalow ONLY; NOT independently verified; EP is a placeholder pad identifier
+Motor_Drivers,U4,2,~{FAULT},M2_nFAULT,Uploaded Mapa sygnalow ONLY; NOT independently verified; EP is a placeholder pad identifier
+Motor_Drivers,U4,3,VREF,M2_VREF,Uploaded Mapa sygnalow ONLY; NOT independently verified; EP is a placeholder pad identifier
+Motor_Drivers,U4,4,IPROPI,M2_CURRENT_ADC,Uploaded Mapa sygnalow ONLY; NOT independently verified; EP is a placeholder pad identifier
+Motor_Drivers,U4,5,IMODE,NC,Uploaded Mapa sygnalow ONLY; NOT independently verified; EP is a placeholder pad identifier
+Motor_Drivers,U4,6,OUT1,MOTOR_2_A,Uploaded Mapa sygnalow ONLY; NOT independently verified; EP is a placeholder pad identifier
+Motor_Drivers,U4,7,PGND,GND,Uploaded Mapa sygnalow ONLY; NOT independently verified; EP is a placeholder pad identifier
+Motor_Drivers,U4,8,OUT2,MOTOR_2_B,Uploaded Mapa sygnalow ONLY; NOT independently verified; EP is a placeholder pad identifier
+Motor_Drivers,U4,9,VM,VM_MOTORS,Uploaded Mapa sygnalow ONLY; NOT independently verified; EP is a placeholder pad identifier
+Motor_Drivers,U4,10,VCP,M2_VCP,Uploaded Mapa sygnalow ONLY; NOT independently verified; EP is a placeholder pad identifier
+Motor_Drivers,U4,11,CPH,M2_CPH,Uploaded Mapa sygnalow ONLY; NOT independently verified; EP is a placeholder pad identifier
+Motor_Drivers,U4,12,CPL,M2_CPL,Uploaded Mapa sygnalow ONLY; NOT independently verified; EP is a placeholder pad identifier
+Motor_Drivers,U4,13,GND,GND,Uploaded Mapa sygnalow ONLY; NOT independently verified; EP is a placeholder pad identifier
+Motor_Drivers,U4,14,PMODE,+3V3,Uploaded Mapa sygnalow ONLY; NOT independently verified; EP is a placeholder pad identifier
+Motor_Drivers,U4,15,EN/IN1,M2_IN1,Uploaded Mapa sygnalow ONLY; NOT independently verified; EP is a placeholder pad identifier
+Motor_Drivers,U4,16,PH/IN2,M2_IN2,Uploaded Mapa sygnalow ONLY; NOT independently verified; EP is a placeholder pad identifier
+Motor_Drivers,U4,EP,EP,GND,Uploaded Mapa sygnalow ONLY; NOT independently verified; EP is a placeholder pad identifier
+Motor_Drivers,R6,1,~,+3V3,KiCad 9.0.2 Device:R; manufacturer recheck pending
+Motor_Drivers,R6,2,~,M2_nFAULT,KiCad 9.0.2 Device:R; manufacturer recheck pending
+Motor_Drivers,R13,1,~,M2_CURRENT_ADC,KiCad 9.0.2 Device:R; manufacturer recheck pending
+Motor_Drivers,R13,2,~,GND,KiCad 9.0.2 Device:R; manufacturer recheck pending
+Motor_Drivers,R17,1,~,+3V3,KiCad 9.0.2 Device:R; manufacturer recheck pending
+Motor_Drivers,R17,2,~,M2_VREF,KiCad 9.0.2 Device:R; manufacturer recheck pending
+Motor_Drivers,R15,1,~,M2_VREF,KiCad 9.0.2 Device:R; manufacturer recheck pending
+Motor_Drivers,R15,2,~,GND,KiCad 9.0.2 Device:R; manufacturer recheck pending
+Motor_Drivers,C18,1,~,VM_MOTORS,KiCad 9.0.2 Device:C; manufacturer recheck pending
+Motor_Drivers,C18,2,~,GND,KiCad 9.0.2 Device:C; manufacturer recheck pending
+Motor_Drivers,C22,1,~,M2_VCP,KiCad 9.0.2 Device:C; manufacturer recheck pending
+Motor_Drivers,C22,2,~,VM_MOTORS,KiCad 9.0.2 Device:C; manufacturer recheck pending
+Motor_Drivers,C24,1,~,M2_CPH,KiCad 9.0.2 Device:C; manufacturer recheck pending
+Motor_Drivers,C24,2,~,M2_CPL,KiCad 9.0.2 Device:C; manufacturer recheck pending
+Motor_Drivers,C27,1,~,M2_CURRENT_ADC,KiCad 9.0.2 Device:C; manufacturer recheck pending
+Motor_Drivers,C27,2,~,GND,KiCad 9.0.2 Device:C; manufacturer recheck pending
+Motor_Drivers,C20,1,~,VM_MOTORS,KiCad 9.0.2 Device:C_Polarized; manufacturer recheck pending
+Motor_Drivers,C20,2,~,GND,KiCad 9.0.2 Device:C_Polarized; manufacturer recheck pending
+Motor_Drivers,J5,1,Pin_1,MOTOR_2_A,KiCad 9.0.2 Connector_Generic:Conn_01x02; manufacturer recheck pending
+Motor_Drivers,J5,2,Pin_2,MOTOR_2_B,KiCad 9.0.2 Connector_Generic:Conn_01x02; manufacturer recheck pending
+Safety_Sensors_Connectors,J13,1,Pin_1,+3V3,KiCad 9.0.2 Connector_Generic:Conn_01x02; manufacturer recheck pending
+Safety_Sensors_Connectors,J13,2,Pin_2,SAFETY_LINK_1,KiCad 9.0.2 Connector_Generic:Conn_01x02; manufacturer recheck pending
+Safety_Sensors_Connectors,J14,1,Pin_1,SAFETY_LINK_1,KiCad 9.0.2 Connector_Generic:Conn_01x02; manufacturer recheck pending
+Safety_Sensors_Connectors,J14,2,Pin_2,SAFETY_LINK_2,KiCad 9.0.2 Connector_Generic:Conn_01x02; manufacturer recheck pending
+Safety_Sensors_Connectors,J15,1,Pin_1,SAFETY_LINK_2,KiCad 9.0.2 Connector_Generic:Conn_01x02; manufacturer recheck pending
+Safety_Sensors_Connectors,J15,2,Pin_2,SAFETY_LOOP_OK,KiCad 9.0.2 Connector_Generic:Conn_01x02; manufacturer recheck pending
+Safety_Sensors_Connectors,U8,1,~,MOTOR_MCU_ENABLE,KiCad 9.0.2 74xGxx:74LVC1G08; manufacturer recheck pending
+Safety_Sensors_Connectors,U8,2,~,SAFETY_LOOP_OK,KiCad 9.0.2 74xGxx:74LVC1G08; manufacturer recheck pending
+Safety_Sensors_Connectors,U8,5,VCC,+3V3,KiCad 9.0.2 74xGxx:74LVC1G08; manufacturer recheck pending
+Safety_Sensors_Connectors,U8,3,GND,GND,KiCad 9.0.2 74xGxx:74LVC1G08; manufacturer recheck pending
+Safety_Sensors_Connectors,U8,4,~,MOTOR_DRV_ENABLE,KiCad 9.0.2 74xGxx:74LVC1G08; manufacturer recheck pending
+Safety_Sensors_Connectors,R7,1,~,MOTOR_MCU_ENABLE,KiCad 9.0.2 Device:R; manufacturer recheck pending
+Safety_Sensors_Connectors,R7,2,~,GND,KiCad 9.0.2 Device:R; manufacturer recheck pending
+Safety_Sensors_Connectors,R8,1,~,SAFETY_LOOP_OK,KiCad 9.0.2 Device:R; manufacturer recheck pending
+Safety_Sensors_Connectors,R8,2,~,GND,KiCad 9.0.2 Device:R; manufacturer recheck pending
+Safety_Sensors_Connectors,R18,1,~,MOTOR_DRV_ENABLE,KiCad 9.0.2 Device:R; manufacturer recheck pending
+Safety_Sensors_Connectors,R18,2,~,GND,KiCad 9.0.2 Device:R; manufacturer recheck pending
+Safety_Sensors_Connectors,C25,1,~,SAFETY_LOOP_OK,KiCad 9.0.2 Device:C; manufacturer recheck pending
+Safety_Sensors_Connectors,C25,2,~,GND,KiCad 9.0.2 Device:C; manufacturer recheck pending
+Safety_Sensors_Connectors,C28,1,~,+3V3,KiCad 9.0.2 Device:C; manufacturer recheck pending
+Safety_Sensors_Connectors,C28,2,~,GND,KiCad 9.0.2 Device:C; manufacturer recheck pending
+Safety_Sensors_Connectors,J9,1,Pin_1,LIM_1_OPEN_NC,KiCad 9.0.2 Connector_Generic:Conn_01x02; manufacturer recheck pending
+Safety_Sensors_Connectors,J9,2,Pin_2,GND,KiCad 9.0.2 Connector_Generic:Conn_01x02; manufacturer recheck pending
+Safety_Sensors_Connectors,J10,1,Pin_1,LIM_1_CLOSED_NC,KiCad 9.0.2 Connector_Generic:Conn_01x02; manufacturer recheck pending
+Safety_Sensors_Connectors,J10,2,Pin_2,GND,KiCad 9.0.2 Connector_Generic:Conn_01x02; manufacturer recheck pending
+Safety_Sensors_Connectors,J11,1,Pin_1,LIM_2_OPEN_NC,KiCad 9.0.2 Connector_Generic:Conn_01x02; manufacturer recheck pending
+Safety_Sensors_Connectors,J11,2,Pin_2,GND,KiCad 9.0.2 Connector_Generic:Conn_01x02; manufacturer recheck pending
+Safety_Sensors_Connectors,J12,1,Pin_1,LIM_2_CLOSED_NC,KiCad 9.0.2 Connector_Generic:Conn_01x02; manufacturer recheck pending
+Safety_Sensors_Connectors,J12,2,Pin_2,GND,KiCad 9.0.2 Connector_Generic:Conn_01x02; manufacturer recheck pending
+Safety_Sensors_Connectors,J6,1,Pin_1,+3V3,KiCad 9.0.2 Connector_Generic:Conn_01x05; manufacturer recheck pending
+Safety_Sensors_Connectors,J6,2,Pin_2,GND,KiCad 9.0.2 Connector_Generic:Conn_01x05; manufacturer recheck pending
+Safety_Sensors_Connectors,J6,3,Pin_3,I2C_SCL,KiCad 9.0.2 Connector_Generic:Conn_01x05; manufacturer recheck pending
+Safety_Sensors_Connectors,J6,4,Pin_4,I2C_SDA,KiCad 9.0.2 Connector_Generic:Conn_01x05; manufacturer recheck pending
+Safety_Sensors_Connectors,J6,5,Pin_5,TOF1_XSHUT,KiCad 9.0.2 Connector_Generic:Conn_01x05; manufacturer recheck pending
+Safety_Sensors_Connectors,J7,1,Pin_1,+3V3,KiCad 9.0.2 Connector_Generic:Conn_01x05; manufacturer recheck pending
+Safety_Sensors_Connectors,J7,2,Pin_2,GND,KiCad 9.0.2 Connector_Generic:Conn_01x05; manufacturer recheck pending
+Safety_Sensors_Connectors,J7,3,Pin_3,I2C_SCL,KiCad 9.0.2 Connector_Generic:Conn_01x05; manufacturer recheck pending
+Safety_Sensors_Connectors,J7,4,Pin_4,I2C_SDA,KiCad 9.0.2 Connector_Generic:Conn_01x05; manufacturer recheck pending
+Safety_Sensors_Connectors,J7,5,Pin_5,TOF2_XSHUT,KiCad 9.0.2 Connector_Generic:Conn_01x05; manufacturer recheck pending
+Safety_Sensors_Connectors,R10,1,~,+3V3,KiCad 9.0.2 Device:R; manufacturer recheck pending
+Safety_Sensors_Connectors,R10,2,~,I2C_SCL,KiCad 9.0.2 Device:R; manufacturer recheck pending
+Safety_Sensors_Connectors,R11,1,~,+3V3,KiCad 9.0.2 Device:R; manufacturer recheck pending
+Safety_Sensors_Connectors,R11,2,~,I2C_SDA,KiCad 9.0.2 Device:R; manufacturer recheck pending
+Power_12V_5V_3V3,#PWR011,1,~,GND,KiCad 9.0.2 power:GND; manufacturer recheck pending
+Power_12V_5V_3V3,#PWR012,1,~,+3V3,KiCad 9.0.2 power:+3V3; manufacturer recheck pending
+STM32_Control_SWD,#PWR021,1,~,GND,KiCad 9.0.2 power:GND; manufacturer recheck pending
+STM32_Control_SWD,#PWR022,1,~,+3V3,KiCad 9.0.2 power:+3V3; manufacturer recheck pending
+ESP32_USB_Audio,#PWR031,1,~,GND,KiCad 9.0.2 power:GND; manufacturer recheck pending
+ESP32_USB_Audio,#PWR032,1,~,+3V3,KiCad 9.0.2 power:+3V3; manufacturer recheck pending
+Motor_Drivers,#PWR041,1,~,GND,KiCad 9.0.2 power:GND; manufacturer recheck pending
+Motor_Drivers,#PWR042,1,~,+3V3,KiCad 9.0.2 power:+3V3; manufacturer recheck pending
+Safety_Sensors_Connectors,#PWR051,1,~,GND,KiCad 9.0.2 power:GND; manufacturer recheck pending
+Safety_Sensors_Connectors,#PWR052,1,~,+3V3,KiCad 9.0.2 power:+3V3; manufacturer recheck pending
